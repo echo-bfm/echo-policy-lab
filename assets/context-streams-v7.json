@@ -1,0 +1,364 @@
+{
+  "schema": 1,
+  "kind": "same-motion-causal-context-streams",
+  "policySha256": "0719a48e5f5dff9b8b78dd13ff8e53f51745a9e91e5dfbfa7782b36d7b4391ca",
+  "coefficients": [
+    0.3,
+    2
+  ],
+  "warmupSteps": 350,
+  "warmupSeconds": 7,
+  "protocol": "Frozen tracker holds target frame 0 for 350 real interactions at donor friction. Reset physical state to frame 0 with zero velocity, retain last 300 warmup interactions, clear short/pending and four prior latents. Run the same motion online in donor physics and record all five context tensors before each action. Browser replays these tensors at matching command indices and recomputes encoder/residual against live target tracker observations.",
+  "contextInputs": [
+    "short_interactions",
+    "short_valid",
+    "long_interactions",
+    "long_valid",
+    "previous_latents"
+  ],
+  "aggregation": "none",
+  "streams": [
+    {
+      "motionId": "09dba44c081237f5",
+      "motionSha256": "09dba44c081237f504d5cdf5b465b32c008d53f30c513d23b3d35a1578b57aea",
+      "mu": 0.3,
+      "frames": 263,
+      "assetPrefix": "v6-context-09dba44c081237f5-0.3",
+      "poolRows": 563,
+      "warmupSteps": 350,
+      "initialLongSha256": "2fb161b68d5a52221966269b60868eddd4f9d8a9fc2b93c142dec20eb7155e56",
+      "warmupSha256": "f61ba689c7464424eaeb81900c891d5f2267ce2f2bd8a85d43cd01bddfc32fca",
+      "originalSharpShooterStreamBitExact": true,
+      "streamSha256": "e7f6c791e445a45e9c9c1fd93b3d526b899d246862291a42bb968ce8449f4149",
+      "native": {
+        "world": 252.9940019955162,
+        "local": 56.183820468778826,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "09dba44c081237f5",
+      "motionSha256": "09dba44c081237f504d5cdf5b465b32c008d53f30c513d23b3d35a1578b57aea",
+      "mu": 2.0,
+      "frames": 263,
+      "assetPrefix": "v6-context-09dba44c081237f5-2",
+      "poolRows": 563,
+      "warmupSteps": 350,
+      "initialLongSha256": "154f56dd5d4bf65f96e4d22c94f2162a9b9a5ea89c17cb17aa761c460cbd7d2f",
+      "warmupSha256": "224a3c8b882fa555caa7d2489a780208de698f8ba1b8ed060f48721ca67c5846",
+      "originalSharpShooterStreamBitExact": true,
+      "streamSha256": "5afa71d7ec437182f73c252f553fa9fc400b40ad3ca3b516a38bd42dadd31389",
+      "native": {
+        "world": 126.2024918949331,
+        "local": 29.19298060613734,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "721a4229db522ea9",
+      "motionSha256": "721a4229db522ea9f46519920ac107275f4d6ccfd63fb2af36f6f8ead1f91151",
+      "mu": 0.3,
+      "frames": 321,
+      "assetPrefix": "v6-context-721a4229db522ea9-0.3",
+      "poolRows": 621,
+      "warmupSteps": 350,
+      "initialLongSha256": "2d3d733ffaae3c77ab9cf3af6ff180f6c99182a0389ef83b4d7f64c0cbaea343",
+      "warmupSha256": "c20b7ce550498d8534533641677599cd2a086333bd6246bcb580b9e6c4d44cb5",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "e468d8f855bd1b52b88d30f5b680dae16b0cfd3328b957bb81bc0da7d74bba14",
+      "native": {
+        "world": 662.8842598065734,
+        "local": 81.40394271239639,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "721a4229db522ea9",
+      "motionSha256": "721a4229db522ea9f46519920ac107275f4d6ccfd63fb2af36f6f8ead1f91151",
+      "mu": 2.0,
+      "frames": 321,
+      "assetPrefix": "v6-context-721a4229db522ea9-2",
+      "poolRows": 621,
+      "warmupSteps": 350,
+      "initialLongSha256": "fdc50f47fae720cb4ec9b9e64ec4daee388f280233f8f20428e977a64aef7525",
+      "warmupSha256": "394c629b23a71df993c61e5917d9adf9c1b00aed8fba67f14fb52d85e1b04fa0",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "ce996ea802bb3ccb7cec70a2935e0f441e10afecaba0178e9e62b0c2f5580e38",
+      "native": {
+        "world": 263.30526686385275,
+        "local": 40.21263066008687,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "455c419f813b081b",
+      "motionSha256": "455c419f813b081b378df442b4b8c74e4e1681eccd121299ea242820b734e115",
+      "mu": 0.3,
+      "frames": 343,
+      "assetPrefix": "v6-context-455c419f813b081b-0.3",
+      "poolRows": 643,
+      "warmupSteps": 350,
+      "initialLongSha256": "2fc37cac2ca73917ecdb6453559da058ac6e2c7c264b03372c298f287ef39320",
+      "warmupSha256": "fd71081a6317239f017cedf0ba6cd7eda4a8211a5e54eb51c621eb09254d3b83",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "2c5fe8bf8c5f2bbbfd6a8fa5bfb0af9a28128e9f07e5117948374d1428c67496",
+      "native": {
+        "world": 323.0272094185589,
+        "local": 60.690238585946155,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "455c419f813b081b",
+      "motionSha256": "455c419f813b081b378df442b4b8c74e4e1681eccd121299ea242820b734e115",
+      "mu": 2.0,
+      "frames": 343,
+      "assetPrefix": "v6-context-455c419f813b081b-2",
+      "poolRows": 643,
+      "warmupSteps": 350,
+      "initialLongSha256": "667b035a1dbc8662dd12f0217e453f90216c2293f2779e56402a5366f788a8bb",
+      "warmupSha256": "1e282edd8befc7a1f08400fffaf30c4f307d40303cff68ba209be5e90634fc2a",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "04121d15b3bd0b46d90057121d92eb4d713afa069a7141ee1ba736b520d6431a",
+      "native": {
+        "world": 129.04044602000923,
+        "local": 40.38289731706095,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "a9ba731ed0ef9059",
+      "motionSha256": "a9ba731ed0ef90591ee0f2fc47493a967a7154adb21b4d23af3986af6a97241a",
+      "mu": 0.3,
+      "frames": 463,
+      "assetPrefix": "v6-context-a9ba731ed0ef9059-0.3",
+      "poolRows": 763,
+      "warmupSteps": 350,
+      "initialLongSha256": "0ef7bb706193bd6ef442148b807cfe02751f04f4167623a387550c4b9d7495f1",
+      "warmupSha256": "1240b02b1831e3f96215248b3cf80763700f0fc68aaa0f8c9e89c1faef4cf483",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "832e722623231043b65873c838059c296fd2b17d9e224921f84ca0db7f1bb3ab",
+      "native": {
+        "world": 345.37863352649657,
+        "local": 37.6898274700363,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "a9ba731ed0ef9059",
+      "motionSha256": "a9ba731ed0ef90591ee0f2fc47493a967a7154adb21b4d23af3986af6a97241a",
+      "mu": 2.0,
+      "frames": 463,
+      "assetPrefix": "v6-context-a9ba731ed0ef9059-2",
+      "poolRows": 763,
+      "warmupSteps": 350,
+      "initialLongSha256": "49f0f2cbe5622631031ffd52950ac3ca54c7778787452d1986d0a4896730cf37",
+      "warmupSha256": "65a223e5b0bcba94162881ea70bd127dae757fbe76cf2ed362bcb9f5929f8b3c",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "10504cb0e3cecf03dc8c3fceaf9cc71dc7d1a2acefdfb5b70de74615d4671876",
+      "native": {
+        "world": 244.16222627286788,
+        "local": 26.30556700704418,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "e9b28ea972e841d7",
+      "motionSha256": "e9b28ea972e841d7c279c0c937d5347fea3ab441e57955fe9a77676b39bc7c13",
+      "mu": 0.3,
+      "frames": 466,
+      "assetPrefix": "v6-context-e9b28ea972e841d7-0.3",
+      "poolRows": 766,
+      "warmupSteps": 350,
+      "initialLongSha256": "409adea9b1092b7787b827725df72da423d17a119cbe3d92fd3805199292ed34",
+      "warmupSha256": "be5d974ec6e8e39c514b0c3d9b46db67efa4ed44fc2f2b267fc11db47c7b2f7b",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "c37b54ae9ffec0722b6bfdacaf600714c60e2f4a11266510eb05a9d7dc8a5d3e",
+      "native": {
+        "world": 687.7769550133777,
+        "local": 46.3000566246689,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "e9b28ea972e841d7",
+      "motionSha256": "e9b28ea972e841d7c279c0c937d5347fea3ab441e57955fe9a77676b39bc7c13",
+      "mu": 2.0,
+      "frames": 466,
+      "assetPrefix": "v6-context-e9b28ea972e841d7-2",
+      "poolRows": 766,
+      "warmupSteps": 350,
+      "initialLongSha256": "cfadd3ccc8c35340e57041061fec820567b0a9c709c0c4ce82124c260679546d",
+      "warmupSha256": "923b2a56b6b945211d8c8846be12b532330842efba792e8c7f8260f1a17e52e9",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "67638fe9198a2c562686fdc52b1618d22a90a2f5f1d15e37c8789583f8f351ee",
+      "native": {
+        "world": 112.9412764851765,
+        "local": 31.251792915918493,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "06b91214dee040e8",
+      "motionSha256": "06b91214dee040e8450eaf96067699cc8fee14c2136ab3135fff6afdee775402",
+      "mu": 0.3,
+      "frames": 900,
+      "assetPrefix": "v6-context-06b91214dee040e8-0.3",
+      "poolRows": 1200,
+      "warmupSteps": 350,
+      "initialLongSha256": "ab8cf48f833e09869e6f7629e638578235c9d821eacd103129f86fee6bf0685a",
+      "warmupSha256": "7e7dfb40f147a314163b6b030777386418be9fe18c3ddb844b81734ce853a9b5",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "0c4eac51610eebf05bfab54ab80c77592a05a37e6c44f260c64200b498ef6de5",
+      "native": {
+        "world": 479.30933986489845,
+        "local": 56.89917839647533,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "06b91214dee040e8",
+      "motionSha256": "06b91214dee040e8450eaf96067699cc8fee14c2136ab3135fff6afdee775402",
+      "mu": 2.0,
+      "frames": 900,
+      "assetPrefix": "v6-context-06b91214dee040e8-2",
+      "poolRows": 1200,
+      "warmupSteps": 350,
+      "initialLongSha256": "cb0eae6d7e22767e29a3e7bb98d66c9d0554359a9c53314f2363eb9c6c98b93a",
+      "warmupSha256": "f8133d8889385fe7c7f7dd850137362146d784da763a47c479a334fe130e64d6",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "77ec8e8fe2a12af27e340ba64a18ee44b0ec8c1d9214a051bd9607051bde1e94",
+      "native": {
+        "world": 310.25537339519207,
+        "local": 52.05418940752048,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "dfd2eb7973805975",
+      "motionSha256": "dfd2eb79738059754b02190ea9d0ab0cd1b1100115dad85ecdc5dad24af97bf4",
+      "mu": 0.3,
+      "frames": 899,
+      "assetPrefix": "v6-context-dfd2eb7973805975-0.3",
+      "poolRows": 1199,
+      "warmupSteps": 350,
+      "initialLongSha256": "14eab0a5e8d8ba691b368a51690a262a25c49087168218b912b560b458491ef4",
+      "warmupSha256": "e306366b115b5eba8a187da060750a91972268a0fcd7545a46ed6a61999eb57f",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "d7bb158943894e915733a0a7be23eda04e5d97f687ab677b31621a44e91333b1",
+      "native": {
+        "world": 298.5117444195567,
+        "local": 60.30838588935495,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "dfd2eb7973805975",
+      "motionSha256": "dfd2eb79738059754b02190ea9d0ab0cd1b1100115dad85ecdc5dad24af97bf4",
+      "mu": 2.0,
+      "frames": 899,
+      "assetPrefix": "v6-context-dfd2eb7973805975-2",
+      "poolRows": 1199,
+      "warmupSteps": 350,
+      "initialLongSha256": "e959ce9ec85238eaeea30f97ca6b52a7e0cdaa812c9a81890796aff193a8a741",
+      "warmupSha256": "fd145f808d8c56bbf4dc9ff40dd87df82857a8605ef8d0eb239e6d119c2fe325",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "412e633bf50734788ddebf35ddef366d9e04cf2e6783304a17a86014b6fb9e08",
+      "native": {
+        "world": 351.4805541065063,
+        "local": 52.942348297826435,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "0acaa4a6bd6877de",
+      "motionSha256": "0acaa4a6bd6877defc5988b1dd90570865402347cdd5a37e492db3fb78fc44ea",
+      "mu": 0.3,
+      "frames": 432,
+      "assetPrefix": "v6-context-0acaa4a6bd6877de-0.3",
+      "poolRows": 732,
+      "warmupSteps": 350,
+      "initialLongSha256": "274cc4c290e55bbf7e26ebd78cd42026964f87252ec28f6f0ab44e8a7a246e3b",
+      "warmupSha256": "ce5d5d39f8d7ea8669c31ef537fad38d425c04caed383c41d80246692a6323fd",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "f21d0a908dd7d9777b8c98288a77b9e939877f479b092f4c49810db32309c109",
+      "native": {
+        "world": 219.4776117630182,
+        "local": 40.62516379356384,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "0acaa4a6bd6877de",
+      "motionSha256": "0acaa4a6bd6877defc5988b1dd90570865402347cdd5a37e492db3fb78fc44ea",
+      "mu": 2.0,
+      "frames": 432,
+      "assetPrefix": "v6-context-0acaa4a6bd6877de-2",
+      "poolRows": 732,
+      "warmupSteps": 350,
+      "initialLongSha256": "80ac8a830a3c84524e4ca6703c9cd1dab84c85b45a692b5007a3c2580905aa8b",
+      "warmupSha256": "e8083cd1177dc8e011bea70fdaf8311ea7a3dba063531ab3d8e421fa28e69345",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "6b24e62730c33f3c926e92acbc8a5a2cfc531869861907369a12321dad3b33fa",
+      "native": {
+        "world": 178.95277418559223,
+        "local": 30.68621343360423,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "c07d348a912867a7",
+      "motionSha256": "c07d348a912867a771826aea20e3ac2cc4f1a017cb7944b20363f93a7e3c5d8b",
+      "mu": 0.3,
+      "frames": 326,
+      "assetPrefix": "v6-context-c07d348a912867a7-0.3",
+      "poolRows": 626,
+      "warmupSteps": 350,
+      "initialLongSha256": "2d970a82007a772b120f9873c03f5f4dfc9aa656fa99bfdd34d17fabc4ef5146",
+      "warmupSha256": "90c0cab750c0d08457b40e615a76bac4b2f5233ddf396ef8866b2dd3c26aeee6",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "24142783218961c0cdee955415acf62ab8225d5bfaf9f38bea6640464bc097fc",
+      "native": {
+        "world": 541.1555790857168,
+        "local": 49.773071713080775,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "c07d348a912867a7",
+      "motionSha256": "c07d348a912867a771826aea20e3ac2cc4f1a017cb7944b20363f93a7e3c5d8b",
+      "mu": 2.0,
+      "frames": 326,
+      "assetPrefix": "v6-context-c07d348a912867a7-2",
+      "poolRows": 626,
+      "warmupSteps": 350,
+      "initialLongSha256": "250dbcf31c9641f391fb91bf8bdc515fd9c40efc41a055392e5eaab0f0dc81a1",
+      "warmupSha256": "6871a6a03ab76852d90c91eb632ac8c400e9b8a343e3dbfbbe2bcda4de6da7ae",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "5f2af7ac4afd531da99649ea7357f16c02aa30e57eccbf205f4588eb7ecf5d78",
+      "native": {
+        "world": 130.25689499708324,
+        "local": 26.811998010048498,
+        "success": true,
+        "strict": true
+      }
+    }
+  ]
+}

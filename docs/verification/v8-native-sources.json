@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "motionId": "0cc0278eb2d3d61f",
+      "matched03MetricsExact": true,
+      "source2AllFiveInputsAndLatentsBitExact": true,
+      "archiveSha256": "d1b722f92848ef3934802c533e1c8ea754a3dfd86dfc57e9179d35ef910667f6"
+    },
+    {
+      "motionId": "d122e57e95e31280",
+      "matched03MetricsExact": true,
+      "source2AllFiveInputsAndLatentsBitExact": true,
+      "archiveSha256": "e58ace3db64cfab9b7c6c63ea067db45a1fdc30982ea54fbcc0e8a2ddaab36bb"
+    },
+    {
+      "motionId": "c0dae170256e84dd",
+      "matched03MetricsExact": true,
+      "source2AllFiveInputsAndLatentsBitExact": true,
+      "archiveSha256": "6c7883f69fa72240837a41e3f5de47b59f896e85267bf2ee501dc41b426b4dd2"
+    },
+    {
+      "motionId": "0b47232dae99f1c5",
+      "matched03MetricsExact": true,
+      "source2AllFiveInputsAndLatentsBitExact": true,
+      "archiveSha256": "3ae4a13b48fb8b9e7b4cb53dcd602266a95e17587ca7a31beafb110794f7ae18"
+    },
+    {
+      "motionId": "6f13249b3741a936",
+      "matched03MetricsExact": true,
+      "source2AllFiveInputsAndLatentsBitExact": true,
+      "archiveSha256": "16bf480b36c60ab552914fcf80569b90fa2c64cf905a523c02e6f24c052955b5"
+    },
+    {
+      "motionId": "f3dc77810c11224a",
+      "matched03MetricsExact": true,
+      "source2AllFiveInputsAndLatentsBitExact": true,
+      "archiveSha256": "fa532af76591c3518c081f02d6b25e28817221f88219dd3259263a17102e64cc"
+    },
+    {
+      "motionId": "714dc504091e6cf8",
+      "matched03MetricsExact": true,
+      "source2AllFiveInputsAndLatentsBitExact": true,
+      "archiveSha256": "b6c6d3417d4fd598f241b88cb98b53e189111a72fac45a13c65a0584eb08f722"
+    },
+    {
+      "motionId": "1b3334f31aaf0574",
+      "matched03MetricsExact": true,
+      "source2AllFiveInputsAndLatentsBitExact": true,
+      "archiveSha256": "8fa6331286042cf8011b42701bcb3ca2cd56ef3ed7408f4b0da3d62ede2b905a"
+    },
+    {
+      "motionId": "43104cc452b6bed2",
+      "matched03MetricsExact": true,
+      "source2AllFiveInputsAndLatentsBitExact": true,
+      "archiveSha256": "f30f66f2220332453a0700e6ab74d6ca0d6ff0d77a19949c755ea82300a1c1cb"
+    }
+  ]
+}

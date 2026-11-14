@@ -1,0 +1,1861 @@
+{
+  "started": "2026-11-10T03:19:33.917Z",
+  "trials": [
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 5.629999995231628,
+      "wallSeconds": 12.535,
+      "frames": 262,
+      "nativeDelta": {
+        "world": -0.7031574361880075,
+        "local": 0.09929343474261998,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 630.4833742731951,
+          "local": 359.21419830685704,
+          "success": false,
+          "strict": false,
+          "failureFrame": 68,
+          "strictFailureFrame": 68,
+          "supportLoss": true,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 252.29084455932818,
+          "local": 56.283113903521446,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 0.3,
+      "context": 1,
+      "startLatencyMs": 9.804999977350235,
+      "wallSeconds": 13.054,
+      "frames": 262,
+      "nativeDelta": {
+        "world": -0.45254297504095575,
+        "local": 1.1807824250966519,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 630.4833742731951,
+          "local": 359.21419830685704,
+          "success": false,
+          "strict": false,
+          "failureFrame": 68,
+          "strictFailureFrame": 68,
+          "supportLoss": true,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 627.4428804163522,
+          "local": 429.7208287630033,
+          "success": false,
+          "strict": false,
+          "failureFrame": 71,
+          "strictFailureFrame": 71,
+          "supportLoss": true,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 0.3,
+      "context": 2,
+      "startLatencyMs": 5.549999982118607,
+      "wallSeconds": 13.072,
+      "frames": 262,
+      "nativeDelta": {
+        "world": 1.7401308668219144,
+        "local": -1.8439664767594053,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 630.4833742731951,
+          "local": 359.21419830685704,
+          "success": false,
+          "strict": false,
+          "failureFrame": 68,
+          "strictFailureFrame": 68,
+          "supportLoss": true,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 408.97024415838035,
+          "local": 67.8681370757313,
+          "success": false,
+          "strict": false,
+          "failureFrame": 77,
+          "strictFailureFrame": 77,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 1,
+      "context": 0.3,
+      "startLatencyMs": 1.1649999916553497,
+      "wallSeconds": 10.331,
+      "frames": 262,
+      "nativeDelta": {
+        "world": -0.00022024211992288656,
+        "local": 5.906464011218304e-07,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 57.083026067779315,
+          "local": 28.892405981480273,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 74.12063130463353,
+          "local": 25.10792423119604,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 5.409999996423721,
+      "wallSeconds": 9.234,
+      "frames": 262,
+      "nativeDelta": {
+        "world": -4.707154948846437e-05,
+        "local": -1.877891011048405e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 57.083026067779315,
+          "local": 28.892405981480273,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 87.49632695860014,
+          "local": 26.743323030100576,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 1,
+      "context": 2,
+      "startLatencyMs": 12.965000003576279,
+      "wallSeconds": 8.974,
+      "frames": 262,
+      "nativeDelta": {
+        "world": -0.00013052480804276456,
+        "local": -5.976716412448013e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 57.083026067779315,
+          "local": 28.892405981480273,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 119.21173780864449,
+          "local": 24.712279923217555,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 2,
+      "context": 0.3,
+      "startLatencyMs": 8.75,
+      "wallSeconds": 10.108,
+      "frames": 262,
+      "nativeDelta": {
+        "world": 7.797335655368443e-05,
+        "local": 3.741487387287634e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 73.2418014289671,
+          "local": 31.43002391620788,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 167.9326810614006,
+          "local": 40.3321919054394,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 2,
+      "context": 1,
+      "startLatencyMs": 8.855000019073486,
+      "wallSeconds": 9.756,
+      "frames": 262,
+      "nativeDelta": {
+        "world": 0.00016271684532398467,
+        "local": 1.2731480239835946e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 73.2418014289671,
+          "local": 31.43002391620788,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 155.6816863447526,
+          "local": 32.83647757606744,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 9.2049999833107,
+      "wallSeconds": 9.815,
+      "frames": 262,
+      "nativeDelta": {
+        "world": 0.00986368790059089,
+        "local": 0.001115589551911711,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 73.2418014289671,
+          "local": 31.43002391620788,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 126.2123555828337,
+          "local": 29.19409619568925,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "721a4229db522ea9",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 14.109999984502792,
+      "wallSeconds": 11.057,
+      "frames": 320,
+      "nativeDelta": {
+        "world": -9.466370970583398,
+        "local": 1.9117245460095518,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 716.3841103674711,
+          "local": 315.39550104856687,
+          "success": false,
+          "strict": false,
+          "failureFrame": 86,
+          "strictFailureFrame": 86,
+          "supportLoss": true,
+          "samples": 320,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 653.41788883599,
+          "local": 83.31566725840594,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 320,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "721a4229db522ea9",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 12.975000023841858,
+      "wallSeconds": 10.523,
+      "frames": 320,
+      "nativeDelta": {
+        "world": -0.0006333885049798482,
+        "local": -1.0487211049792222e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 282.25753893008715,
+          "local": 39.2397963342681,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 320,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 166.58122273038268,
+          "local": 38.28577727623552,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 320,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "721a4229db522ea9",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 8.839999973773956,
+      "wallSeconds": 10.912,
+      "frames": 320,
+      "nativeDelta": {
+        "world": -0.00019358266155222736,
+        "local": -1.1036096005057061e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 184.79090758986507,
+          "local": 42.55766194185542,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 320,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 263.3050732811912,
+          "local": 40.21261962399087,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 320,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "603c13eed1121bd7",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 9.23999997973442,
+      "wallSeconds": 14.973,
+      "frames": 443,
+      "nativeDelta": {
+        "world": 0.18445946444830952,
+        "local": 0.059489147938940334,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 1170.2513958304992,
+          "local": 295.4964656143569,
+          "success": false,
+          "strict": false,
+          "failureFrame": 159,
+          "strictFailureFrame": 159,
+          "supportLoss": true,
+          "samples": 443,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 678.0867597087087,
+          "local": 49.61104151574134,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 443,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "603c13eed1121bd7",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 13.090000003576279,
+      "wallSeconds": 15.096,
+      "frames": 443,
+      "nativeDelta": {
+        "world": 0.00021910332978336555,
+        "local": 1.3124842865863684e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 132.12332862756858,
+          "local": 26.67223160363714,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 443,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 102.51945653929712,
+          "local": 26.150392963814376,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 443,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "603c13eed1121bd7",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 8.850000023841858,
+      "wallSeconds": 14.517,
+      "frames": 443,
+      "nativeDelta": {
+        "world": -0.00014985719640492334,
+        "local": -2.397310808532893e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 152.91962648258786,
+          "local": 26.97220988666727,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 443,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 88.88790235822907,
+          "local": 26.032623993684535,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 443,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "455c419f813b081b",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 8.965000003576279,
+      "wallSeconds": 11.518,
+      "frames": 342,
+      "nativeDelta": {
+        "world": -2.5028313620197196,
+        "local": -1.7029671787051441,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 634.6684250415814,
+          "local": 398.5266915208465,
+          "success": false,
+          "strict": false,
+          "failureFrame": 79,
+          "strictFailureFrame": 78,
+          "supportLoss": true,
+          "samples": 342,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 320.5243780565392,
+          "local": 58.98727140724101,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 78,
+          "supportLoss": false,
+          "samples": 342,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "455c419f813b081b",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 9.100000023841858,
+      "wallSeconds": 11.248,
+      "frames": 342,
+      "nativeDelta": {
+        "world": 0.0007076084414734396,
+        "local": 9.125587511249478e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 113.6959574964012,
+          "local": 38.92585090148351,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 342,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 135.2270113768783,
+          "local": 36.78358112452995,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 342,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "455c419f813b081b",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 12.91499999165535,
+      "wallSeconds": 11.507,
+      "frames": 342,
+      "nativeDelta": {
+        "world": 0.00024058608184418517,
+        "local": 9.577802288163184e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 193.2134896811336,
+          "local": 45.48990944518847,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 79,
+          "supportLoss": false,
+          "samples": 342,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 129.04068660609107,
+          "local": 40.38290689486324,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 342,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "7d9995c9780490d3",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 13.25,
+      "wallSeconds": 12.054,
+      "frames": 370,
+      "nativeDelta": {
+        "world": -0.26742973882261367,
+        "local": -0.35337391984022304,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 477.87835182206976,
+          "local": 289.6286563907236,
+          "success": false,
+          "strict": false,
+          "failureFrame": 114,
+          "strictFailureFrame": 101,
+          "supportLoss": true,
+          "samples": 370,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 484.970973290877,
+          "local": 37.262756508216235,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 102,
+          "supportLoss": false,
+          "samples": 370,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "7d9995c9780490d3",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 13.569999992847443,
+      "wallSeconds": 12.08,
+      "frames": 370,
+      "nativeDelta": {
+        "world": -1.8230218728376713e-05,
+        "local": 1.883388110712758e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 303.4290695104014,
+          "local": 39.76379256912481,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 116,
+          "supportLoss": false,
+          "samples": 370,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 112.74930517651626,
+          "local": 36.53344144573628,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 370,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "7d9995c9780490d3",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 12.849999994039536,
+      "wallSeconds": 12.031,
+      "frames": 370,
+      "nativeDelta": {
+        "world": -0.0002644498649289062,
+        "local": 1.790278863467165e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 227.96677978078492,
+          "local": 42.80241552553064,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 123,
+          "supportLoss": false,
+          "samples": 370,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 127.69717526258216,
+          "local": 41.67913935068688,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 370,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "a9ba731ed0ef9059",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 8.944999992847443,
+      "wallSeconds": 15.616,
+      "frames": 462,
+      "nativeDelta": {
+        "world": 2.4833490044784412e-05,
+        "local": 4.6679644086111693e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 912.2346724479855,
+          "local": 205.89463429118882,
+          "success": false,
+          "strict": false,
+          "failureFrame": 284,
+          "strictFailureFrame": 284,
+          "supportLoss": true,
+          "samples": 462,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 345.3786583599866,
+          "local": 37.689874149680385,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 462,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "a9ba731ed0ef9059",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 13.48999997973442,
+      "wallSeconds": 15.367,
+      "frames": 462,
+      "nativeDelta": {
+        "world": 0.00016219536134087775,
+        "local": 8.486225123505164e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 107.19343718060686,
+          "local": 24.1789841350553,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 462,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 79.46223292363857,
+          "local": 25.73962632677735,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 462,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "a9ba731ed0ef9059",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 12.950000017881393,
+      "wallSeconds": 16.333,
+      "frames": 462,
+      "nativeDelta": {
+        "world": -0.0006523692429993844,
+        "local": -8.928014096909465e-07,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 148.67277128415736,
+          "local": 24.86172035744275,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 462,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 244.16157390362488,
+          "local": 26.30556611424277,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 462,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "c13894eca6f161e1",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 9.194999992847443,
+      "wallSeconds": 15.67,
+      "frames": 465,
+      "nativeDelta": {
+        "world": -72.17601565981408,
+        "local": -7.648661768481055,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": false,
+        "within5mm": false
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 528.2966688421145,
+          "local": 109.01358398075502,
+          "success": false,
+          "strict": false,
+          "failureFrame": 387,
+          "strictFailureFrame": 387,
+          "supportLoss": true,
+          "samples": 465,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 626.9790978152266,
+          "local": 48.4417382433404,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 465,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "c13894eca6f161e1",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 9.144999980926514,
+      "wallSeconds": 15.999,
+      "frames": 465,
+      "nativeDelta": {
+        "world": -7.485437407694917e-05,
+        "local": -4.7339100675003465e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 131.04720693840412,
+          "local": 25.687578430152083,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 465,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 179.34702200718834,
+          "local": 24.708369162883585,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 465,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "c13894eca6f161e1",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 12.98999997973442,
+      "wallSeconds": 15.774,
+      "frames": 465,
+      "nativeDelta": {
+        "world": 6.0614156041083334e-05,
+        "local": -1.0386850419763505e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 82.9643175327558,
+          "local": 26.714824604248772,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 465,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 107.20302648898179,
+          "local": 25.16789940413568,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 465,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "e9b28ea972e841d7",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 13.354999989271164,
+      "wallSeconds": 16.052,
+      "frames": 465,
+      "nativeDelta": {
+        "world": -5.365916825805812,
+        "local": 0.20425188347076073,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 561.655248494279,
+          "local": 124.76824619209721,
+          "success": false,
+          "strict": false,
+          "failureFrame": 369,
+          "strictFailureFrame": 175,
+          "supportLoss": true,
+          "samples": 465,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 682.4110381875719,
+          "local": 46.50430850813966,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 175,
+          "supportLoss": false,
+          "samples": 465,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "e9b28ea972e841d7",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 13.819999992847443,
+      "wallSeconds": 15.521,
+      "frames": 465,
+      "nativeDelta": {
+        "world": -0.0007731830285422348,
+        "local": -2.8622861627525253e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 127.24312149253772,
+          "local": 31.8256534732592,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 176,
+          "supportLoss": false,
+          "samples": 465,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 183.21963026878848,
+          "local": 29.979081936054992,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 175,
+          "supportLoss": false,
+          "samples": 465,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "e9b28ea972e841d7",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 12.859999984502792,
+      "wallSeconds": 15.746,
+      "frames": 465,
+      "nativeDelta": {
+        "world": 0.00020632703549949838,
+        "local": 9.648681842477913e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 147.0578109496978,
+          "local": 30.01619013353106,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 177,
+          "supportLoss": false,
+          "samples": 465,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 112.941482812212,
+          "local": 31.251889402736918,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 176,
+          "supportLoss": false,
+          "samples": 465,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "06b91214dee040e8",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 8.810000002384186,
+      "wallSeconds": 34.294,
+      "frames": 899,
+      "nativeDelta": {
+        "world": 59.40688857203622,
+        "local": 2.5556907263509174,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 1074.5236442824644,
+          "local": 319.24640985239364,
+          "success": false,
+          "strict": false,
+          "failureFrame": 300,
+          "strictFailureFrame": 132,
+          "supportLoss": true,
+          "samples": 899,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 538.7162284369347,
+          "local": 59.454869122826246,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 133,
+          "supportLoss": false,
+          "samples": 899,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "06b91214dee040e8",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 8.974999994039536,
+      "wallSeconds": 37.331,
+      "frames": 899,
+      "nativeDelta": {
+        "world": -2.0113503410357225e-05,
+        "local": 8.167791420987669e-07,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 332.5395687912106,
+          "local": 48.549372960003396,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 899,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 366.3995724483987,
+          "local": 48.59675042138938,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 282,
+          "supportLoss": false,
+          "samples": 899,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "06b91214dee040e8",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 12.794999986886978,
+      "wallSeconds": 29.609,
+      "frames": 899,
+      "nativeDelta": {
+        "world": -0.00010468460413903813,
+        "local": 5.925381223903514e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 341.2082571284528,
+          "local": 54.14664412701049,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 899,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 310.2552687105879,
+          "local": 52.054195332901706,
+          "success": true,
+          "strict": false,
+          "failureFrame": null,
+          "strictFailureFrame": 282,
+          "supportLoss": false,
+          "samples": 899,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "dfd2eb7973805975",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 12.840000003576279,
+      "wallSeconds": 27.968,
+      "frames": 898,
+      "nativeDelta": {
+        "world": -23.163937509116522,
+        "local": 0.2626792349246543,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 916.0583766493634,
+          "local": 321.2281883777934,
+          "success": false,
+          "strict": false,
+          "failureFrame": 303,
+          "strictFailureFrame": 139,
+          "supportLoss": true,
+          "samples": 898,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 275.34780691044017,
+          "local": 60.571065124279606,
+          "success": false,
+          "strict": false,
+          "failureFrame": 215,
+          "strictFailureFrame": 138,
+          "supportLoss": false,
+          "samples": 898,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "dfd2eb7973805975",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 12.939999997615814,
+      "wallSeconds": 32.216,
+      "frames": 898,
+      "nativeDelta": {
+        "world": -0.0008962132201872919,
+        "local": 9.773615917652023e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 382.56701144559923,
+          "local": 50.23317458738181,
+          "success": false,
+          "strict": false,
+          "failureFrame": 686,
+          "strictFailureFrame": 142,
+          "supportLoss": false,
+          "samples": 898,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 362.1155210275046,
+          "local": 50.36787792377236,
+          "success": false,
+          "strict": false,
+          "failureFrame": 687,
+          "strictFailureFrame": 143,
+          "supportLoss": false,
+          "samples": 898,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "dfd2eb7973805975",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 2.344999998807907,
+      "wallSeconds": 101.957,
+      "frames": 898,
+      "nativeDelta": {
+        "world": 8.625952699503614e-05,
+        "local": 2.8799540814361535e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 355.2500973346128,
+          "local": 62.17749578732556,
+          "success": false,
+          "strict": false,
+          "failureFrame": 687,
+          "strictFailureFrame": 141,
+          "supportLoss": false,
+          "samples": 898,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 351.4806403660333,
+          "local": 52.942351177780516,
+          "success": false,
+          "strict": false,
+          "failureFrame": 687,
+          "strictFailureFrame": 143,
+          "supportLoss": false,
+          "samples": 898,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "0acaa4a6bd6877de",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 5.379999995231628,
+      "wallSeconds": 20.328,
+      "frames": 431,
+      "nativeDelta": {
+        "world": 0.26665253263075783,
+        "local": 0.04769756517289636,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 1226.6018502353681,
+          "local": 263.8910101757477,
+          "success": false,
+          "strict": false,
+          "failureFrame": 178,
+          "strictFailureFrame": 178,
+          "supportLoss": true,
+          "samples": 431,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 219.74426429564895,
+          "local": 40.67286135873674,
+          "success": false,
+          "strict": false,
+          "failureFrame": 193,
+          "strictFailureFrame": 193,
+          "supportLoss": false,
+          "samples": 431,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "0acaa4a6bd6877de",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 8.634999990463257,
+      "wallSeconds": 17.4,
+      "frames": 431,
+      "nativeDelta": {
+        "world": -0.00022186237637811246,
+        "local": -5.317908575364072e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 205.04881850535946,
+          "local": 31.561842128399842,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 431,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 210.8932175184862,
+          "local": 33.56316445419924,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 431,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "0acaa4a6bd6877de",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 8.800000011920929,
+      "wallSeconds": 20.512,
+      "frames": 431,
+      "nativeDelta": {
+        "world": 0.00022758979619652564,
+        "local": 2.070424477551569e-05,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 137.64110792285769,
+          "local": 28.73751195970605,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 431,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 178.95300177538843,
+          "local": 30.686234137849006,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 431,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "c07d348a912867a7",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 2.219999998807907,
+      "wallSeconds": 54.235,
+      "frames": 325,
+      "nativeDelta": {
+        "world": -3.082623982193809,
+        "local": 3.1602552544825073,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 1643.2714265681354,
+          "local": 326.3580204275446,
+          "success": false,
+          "strict": false,
+          "failureFrame": 64,
+          "strictFailureFrame": 64,
+          "supportLoss": true,
+          "samples": 325,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 538.072955103523,
+          "local": 52.93332696756328,
+          "success": false,
+          "strict": false,
+          "failureFrame": 61,
+          "strictFailureFrame": 61,
+          "supportLoss": false,
+          "samples": 325,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "c07d348a912867a7",
+      "mu": 1,
+      "context": 1,
+      "startLatencyMs": 1.4749999940395355,
+      "wallSeconds": 54.202,
+      "frames": 325,
+      "nativeDelta": {
+        "world": -6.670716044254732e-05,
+        "local": -2.7485535731841537e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 248.16335056975646,
+          "local": 27.666101299972148,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 325,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 201.9358258989879,
+          "local": 25.077160854568845,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 325,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "c07d348a912867a7",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 2.9099999964237213,
+      "wallSeconds": 50.857,
+      "frames": 325,
+      "nativeDelta": {
+        "world": 5.039280583218897e-05,
+        "local": -1.7842666757417192e-06,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 222.68109504610632,
+          "local": 28.564157080773164,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 325,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 130.25694538988907,
+          "local": 26.811996225781822,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 325,
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "partitionParity": {
+    "passed": true,
+    "rows": [
+      {
+        "key": "fixture-N-0",
+        "latentMaxError": 3.0100345611572266e-06,
+        "actionMaxError": 1.1920928955078125e-06,
+        "trackerMaxError": 3.8743019104003906e-07
+      },
+      {
+        "key": "fixture-N-1",
+        "latentMaxError": 3.2186508178710938e-06,
+        "actionMaxError": 7.152557373046875e-07,
+        "trackerMaxError": 7.152557373046875e-07
+      },
+      {
+        "key": "fixture-N-100",
+        "latentMaxError": 3.5762786865234375e-07,
+        "actionMaxError": 8.344650268554688e-07,
+        "trackerMaxError": 7.152557373046875e-07
+      },
+      {
+        "key": "fixture-N-349",
+        "latentMaxError": 1.1920928955078125e-06,
+        "actionMaxError": 5.960464477539062e-07,
+        "trackerMaxError": 4.76837158203125e-07
+      },
+      {
+        "key": "fixture-N-350",
+        "latentMaxError": 2.1457672119140625e-06,
+        "actionMaxError": 4.172325134277344e-07,
+        "trackerMaxError": 4.172325134277344e-07
+      },
+      {
+        "key": "fixture-N-351",
+        "latentMaxError": 2.1457672119140625e-06,
+        "actionMaxError": 5.066394805908203e-07,
+        "trackerMaxError": 4.76837158203125e-07
+      },
+      {
+        "key": "fixture-N-400",
+        "latentMaxError": 1.3113021850585938e-06,
+        "actionMaxError": 1.7881393432617188e-06,
+        "trackerMaxError": 1.6689300537109375e-06
+      },
+      {
+        "key": "fixture-N-500",
+        "latentMaxError": 6.556510925292969e-07,
+        "actionMaxError": 1.1920928955078125e-06,
+        "trackerMaxError": 9.5367431640625e-07
+      },
+      {
+        "key": "fixture-N-611",
+        "latentMaxError": 5.960464477539062e-07,
+        "actionMaxError": 9.5367431640625e-07,
+        "trackerMaxError": 9.5367431640625e-07
+      },
+      {
+        "key": "fixture-N-612",
+        "latentMaxError": 4.76837158203125e-07,
+        "actionMaxError": 7.152557373046875e-07,
+        "trackerMaxError": 7.152557373046875e-07
+      }
+    ]
+  },
+  "discreteInputsEnforced": true,
+  "resetDuringMotion": true,
+  "preIndependentOfContext": true,
+  "allFiveDonorInputsBitExact": true,
+  "rollingLongHistory": true,
+  "nineOriginalNativeComparisons": true,
+  "all36MatchedDonorComparisons": true,
+  "motionPrefetchKeepsStanding": true,
+  "executionChecksPassed": true,
+  "numericalParity": {
+    "toleranceMm": 5,
+    "passed": false,
+    "exceeded": [
+      {
+        "motion": "721a4229db522ea9",
+        "mu": 0.3,
+        "context": 0.3,
+        "world": -9.466370970583398,
+        "local": 1.9117245460095518,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      {
+        "motion": "c13894eca6f161e1",
+        "mu": 0.3,
+        "context": 0.3,
+        "world": -72.17601565981408,
+        "local": -7.648661768481055,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": false,
+        "within5mm": false
+      },
+      {
+        "motion": "e9b28ea972e841d7",
+        "mu": 0.3,
+        "context": 0.3,
+        "world": -5.365916825805812,
+        "local": 0.20425188347076073,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      {
+        "motion": "06b91214dee040e8",
+        "mu": 0.3,
+        "context": 0.3,
+        "world": 59.40688857203622,
+        "local": 2.5556907263509174,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      {
+        "motion": "dfd2eb7973805975",
+        "mu": 0.3,
+        "context": 0.3,
+        "world": -23.163937509116522,
+        "local": 0.2626792349246543,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      }
+    ]
+  },
+  "passed": false,
+  "finished": "2026-11-10T03:35:26.938Z",
+  "aggregationNote": "Final mismatch list recomputed from unchanged trial arrays to include strict-outcome mismatches. All 42 trajectories are unchanged; overall failed status is unchanged."
+}

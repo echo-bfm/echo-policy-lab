@@ -1,0 +1,132 @@
+{
+  "kind": "numerical-diagnostic",
+  "cases": [
+    {
+      "case": "power-step",
+      "source": "verification/v6-numeric-audit/power-step/result.json",
+      "sourceSha256": "b790bf897bcf5861b2980ada3c70f25ce516acf2af481a92f441d5faba68d267",
+      "config": {
+        "mu": 0.3,
+        "contextMu": 0.3,
+        "motionId": "721a4229db522ea9"
+      },
+      "browserSummary": {
+        "world": 653.41788883599,
+        "local": 83.31566725840594,
+        "success": true,
+        "strict": true,
+        "failureFrame": null,
+        "strictFailureFrame": null,
+        "supportLoss": false,
+        "samples": 320,
+        "complete": true
+      },
+      "results": [
+        {
+          "mode": "native-context-replay",
+          "world": 662.8842598065734,
+          "local": 81.40394271239639,
+          "worldDelta": 9.466370970583398,
+          "localDelta": -1.9117245460095518,
+          "success": true,
+          "maxQposDifference": 0.1364679806164793,
+          "initialQposDifference": 0.0,
+          "initialActionDifference": 3.5762786865234375e-07,
+          "initialLatentDifference": 8.344650268554688e-07,
+          "firstFrameExceeding": {
+            "1e-06": 63,
+            "0.0001": 138,
+            "0.001": 178,
+            "0.01": 180
+          }
+        },
+        {
+          "mode": "browser-action-replay",
+          "world": 727.0392651334405,
+          "local": 184.10620544552802,
+          "worldDelta": 73.62137629745052,
+          "localDelta": 100.79053818712208,
+          "success": false,
+          "maxQposDifference": 1.5458333864358613,
+          "initialQposDifference": 0.0,
+          "initialActionDifference": 0.0,
+          "initialLatentDifference": 0.0,
+          "firstFrameExceeding": {
+            "1e-06": 108,
+            "0.0001": 144,
+            "0.001": 145,
+            "0.01": 177
+          }
+        }
+      ],
+      "note": "Diagnostic, not a relaxed acceptance test. The original 5 mm autonomous tolerance remains unchanged. Identical-action replay measures remaining physics differences; it does not prove bit-exact simulation."
+    },
+    {
+      "case": "turn-180",
+      "source": "verification/v6-numeric-audit/turn-180/result.json",
+      "sourceSha256": "ef287c04dc528b6fb3c96087f48770055d9e00ad72e1280c6cff7afdd525856a",
+      "config": {
+        "mu": 0.3,
+        "contextMu": 0.3,
+        "motionId": "c13894eca6f161e1"
+      },
+      "browserSummary": {
+        "world": 626.9790978152266,
+        "local": 48.4417382433404,
+        "success": true,
+        "strict": true,
+        "failureFrame": null,
+        "strictFailureFrame": null,
+        "supportLoss": false,
+        "samples": 465,
+        "complete": true
+      },
+      "results": [
+        {
+          "mode": "native-context-replay",
+          "world": 699.1551134750407,
+          "local": 56.09040001182146,
+          "worldDelta": 72.17601565981408,
+          "localDelta": 7.648661768481055,
+          "success": true,
+          "maxQposDifference": 1.2858938867625374,
+          "initialQposDifference": 0.0,
+          "initialActionDifference": 3.5762786865234375e-07,
+          "initialLatentDifference": 4.887580871582031e-06,
+          "firstFrameExceeding": {
+            "1e-06": 208,
+            "0.0001": 330,
+            "0.001": 330,
+            "0.01": 330
+          }
+        },
+        {
+          "mode": "browser-action-replay",
+          "world": 641.0081664003352,
+          "local": 113.11185731887818,
+          "worldDelta": 14.029068585108575,
+          "localDelta": 64.67011907553777,
+          "success": false,
+          "maxQposDifference": 0.9649188127101617,
+          "initialQposDifference": 0.0,
+          "initialActionDifference": 0.0,
+          "initialLatentDifference": 0.0,
+          "firstFrameExceeding": {
+            "1e-06": 244,
+            "0.0001": 289,
+            "0.001": 301,
+            "0.01": 302
+          }
+        }
+      ],
+      "note": "Diagnostic, not a relaxed acceptance test. The original 5 mm autonomous tolerance remains unchanged. Identical-action replay measures remaining physics differences; it does not prove bit-exact simulation."
+    }
+  ],
+  "findings": [
+    "Reconstructed donor context tensors match the native donor byte-for-byte at every scored command.",
+    "Fresh native context replay reproduces the recorded native metrics for both inspected cases.",
+    "Initial native/browser actions differ by about 3.58e-7. Identical browser-action replay in native MuJoCo also diverges later and can change success.",
+    "These measurements leave physics/backend numerical propagation unresolved. They do not establish bit-exact physics or attribute the entire difference to the encoder.",
+    "The 5 mm autonomous comparison and strict outcome checks remain unchanged. No weights, friction, success criteria or reference motions were tuned to force agreement."
+  ]
+}

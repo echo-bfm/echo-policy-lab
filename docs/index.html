@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Compare ECHO policies with two friction levels and causal context streams after the original warmup using browser inference."><title>ECHO · Policy Lab</title><link rel="icon" href="data:,"><link rel="preload" href="fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="lab-ui.css?v=20261113-recovery"><script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+<link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
+<link rel="modulepreload" href="./lab-v9.js?v=20261113-recovery">
+<link rel="modulepreload" href="./renderer.js?v=20261113-recovery">
+<link rel="modulepreload" href="./vendor/three.module.js">
+<link rel="modulepreload" href="./vendor/three.core.js">
+<link rel="modulepreload" href="./vendor/OrbitControls.js">
+<link rel="modulepreload" href="./metrics.js">
+<link rel="modulepreload" href="./worker-v9.js?v=20261113-recovery">
+<link rel="modulepreload" href="./runtime.js?v=20261113-recovery">
+<link rel="modulepreload" href="./assets.js?v=20261113-recovery">
+<link rel="modulepreload" href="./context-streams.js?v=20261113-recovery">
+<link rel="modulepreload" href="./vendor/mujoco.js">
+<link rel="modulepreload" href="./vendor/ort.wasm.bundle.min.mjs">
+<link rel="modulepreload" href="./vendor/ort-wasm-simd-threaded.mjs">
+<link rel="preload" href="./assets/manifest.json" as="fetch" crossorigin>
+<link rel="preload" href="./assets/config.json" as="fetch" crossorigin>
+<link rel="preload" href="./assets/experiment-v9.json?catalog=17" as="fetch" crossorigin>
+</head>
+<body><header><a class="brand" href="./">ECHO<span class="brand-rule"></span><span class="brand-sub">Policy Lab</span></a></header><main>
+<section class="intro-grid">
+  <section class="overview card" aria-labelledby="overview-title"><h1 id="overview-title">Demo overview</h1><p class="lead">Compare ECHO-PRE and ECHO-N as they follow the same reference motion. Adjust ground friction and the context supplied to ECHO-N to explore how interaction history affects control.</p></section>
+  <section class="guide card" aria-labelledby="guide-title"><h2 id="guide-title">How to use</h2><ol><li><span class="step">1</span><div><strong>Choose a motion</strong><p>Select the behavior both humanoids will follow.</p></div></li><li><span class="step">2</span><div><strong>Set friction and context</strong><p>Match the context to the environment, or try a mismatch.</p></div></li><li><span class="step">3</span><div><strong>Run and compare</strong><p>Watch both policies, inspect tracking errors, then reset to try again.</p></div></li></ol></section>
+</section>
+<div class="lab"><aside class="controls card" aria-labelledby="setup-title"><h2 class="module-title" id="setup-title">Motion &amp; environment</h2>
+<div class="field"><label class="field-label" for="motion">Reference motion</label><select id="motion" disabled><option>Loading motion catalog…</option></select></div>
+<div class="field"><p class="field-label" id="friction-label">Actual friction <span class="symbol">μ</span></p><div class="presets" role="group" aria-labelledby="friction-label"><button data-mu="0.3" disabled>0.3</button><button data-mu="2" disabled>2.0</button></div><p class="hint">Applied to foot–ground contact in both simulations.</p></div>
+<div class="field"><p class="field-label" id="context-label">ECHO-N context source <span class="symbol">μ</span></p><div class="presets" role="group" aria-labelledby="context-label"><button data-context="0.3" disabled>0.3</button><button data-context="2" disabled>2.0</button></div><details class="setup-details"><summary>Context details</summary><p>350 warmup steps, followed by time-aligned context history.</p><p id="bank-info">Preparing the selected context stream…</p></details></div>
+<div class="actions"><button id="run" class="primary" disabled>Run experiment</button><button id="reset" class="secondary" disabled>Reset to standing</button><p id="run-note" class="hint">Run starts from the reference pose. Reset returns both humanoids to standing.</p></div>
+</aside><section class="results"><section class="simulation-card card" aria-labelledby="simulation-title"><div class="viewer-heading"><div><h2 class="module-title" id="simulation-title">Live simulation</h2><span id="condition-label">μ = 0.3 · context μ = 0.3</span></div><div class="view-options"><label><input id="ghost" type="checkbox" checked> Reference</label><label><input id="follow" type="checkbox" checked> Follow motion</label><button id="fit" title="Frame both robots and their reference">Fit view</button></div></div>
+<div id="viewer"><div id="render-surface"></div><div id="panels"></div><div id="loader" role="status"><span id="loading-spinner" class="spinner" aria-hidden="true"></span><strong id="loader-title">Preparing the physics scene</strong><small id="loading-text">Loading the scene and controllers…</small></div></div>
+<div class="transport"><button id="pause" aria-label="Pause or resume" disabled>Pause</button><input id="timeline" type="range" min="0" max="1" value="0" step="1" aria-label="Inspect recorded motion frame" disabled><span id="clock">Standing</span></div>
+<div id="startup" class="startup" role="status"><div class="startup-heading"><strong id="startup-title">Preparing experiment</strong><span id="startup-percent">Loading…</span></div><progress id="startup-progress" max="100" aria-label="Experiment loading progress"></progress><button id="retry-loading" class="retry-loading" type="button" hidden>Retry loading</button></div><div class="view-hint">Drag to orbit · Scroll to zoom</div><div class="run-status"><span id="status" role="status">Loading physics and policy assets…</span><span id="speed" title="Simulation seconds / active wall-clock seconds">— ×</span></div>
+</section><section class="measurement-card card" aria-labelledby="tracking-title"><div class="chart-title"><div><h2 class="module-title" id="tracking-title">Tracking comparison</h2><p>World-frame MPJPE <span class="muted">· mm ↓</span></p></div><span id="chart-caption">Full reference motion</span></div><canvas id="chart" aria-label="World tracking error over simulation time"></canvas><div id="legend"></div>
+<div class="table-wrap"><table><thead><tr><th>Policy / context</th><th>World <small>mm ↓</small></th><th>Local <small>mm ↓</small></th></tr></thead><tbody id="summary"></tbody></table></div>
+</section></section></div>
+<footer><span>ECHO · Policy Lab</span></footer></main><script type="module" src="startup.js?v=20261113-recovery"></script></body></html>

@@ -1,0 +1,176 @@
+{
+  "executionChecksPassed": true,
+  "testedCombinations": 31,
+  "addedMotionCombinations": 27,
+  "numericalToleranceMm": 5,
+  "numericalParityPassed": false,
+  "numericalOrOutcomeDifferences": 8,
+  "trackingOutcomeDifferences": 1,
+  "strictOutcomeDifferences": 1,
+  "differences": [
+    {
+      "motion": "d122e57e95e31280",
+      "mu": 0.3,
+      "context": 0.3,
+      "world": 11.21548585272518,
+      "local": -3.628437911441658,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true,
+      "within5mm": false
+    },
+    {
+      "motion": "c0dae170256e84dd",
+      "mu": 0.3,
+      "context": 0.3,
+      "world": 186.30389299676278,
+      "local": 33.65292020811415,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true,
+      "within5mm": false
+    },
+    {
+      "motion": "0b47232dae99f1c5",
+      "mu": 0.3,
+      "context": 0.3,
+      "world": -114.8889848271611,
+      "local": 0.5564780003655301,
+      "outcomeMatches": false,
+      "strictOutcomeMatches": false,
+      "within5mm": false
+    },
+    {
+      "motion": "f3dc77810c11224a",
+      "mu": 0.3,
+      "context": 0.3,
+      "world": -16.328178428631873,
+      "local": 0.6040301671934074,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true,
+      "within5mm": false
+    },
+    {
+      "motion": "f3dc77810c11224a",
+      "mu": 0.3,
+      "context": 2,
+      "world": 28.888694884162987,
+      "local": 0.8089079113981157,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true,
+      "within5mm": false
+    },
+    {
+      "motion": "714dc504091e6cf8",
+      "mu": 0.3,
+      "context": 0.3,
+      "world": 37.359571854578036,
+      "local": 1.6821098454718957,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true,
+      "within5mm": false
+    },
+    {
+      "motion": "43104cc452b6bed2",
+      "mu": 0.3,
+      "context": 0.3,
+      "world": -5.6471808326484165,
+      "local": -2.129994169736449,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true,
+      "within5mm": false
+    },
+    {
+      "motion": "43104cc452b6bed2",
+      "mu": 0.3,
+      "context": 2,
+      "world": -136.71917928205295,
+      "local": -3.7730433441779994,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true,
+      "within5mm": false
+    }
+  ],
+  "preLowFrictionComparison": [
+    {
+      "motionId": "0cc0278eb2d3d61f",
+      "mu": 0.3,
+      "worldDelta": -0.012671833939577937,
+      "localDelta": 0.0024041644377632565,
+      "within5mm": true,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true
+    },
+    {
+      "motionId": "d122e57e95e31280",
+      "mu": 0.3,
+      "worldDelta": -7.0077991477114665,
+      "localDelta": 6.257265788948587,
+      "within5mm": false,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true
+    },
+    {
+      "motionId": "c0dae170256e84dd",
+      "mu": 0.3,
+      "worldDelta": 0.1124444353769718,
+      "localDelta": 0.00640793745293422,
+      "within5mm": true,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true
+    },
+    {
+      "motionId": "0b47232dae99f1c5",
+      "mu": 0.3,
+      "worldDelta": 48.012475454575,
+      "localDelta": -0.19628970688696512,
+      "within5mm": false,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true
+    },
+    {
+      "motionId": "6f13249b3741a936",
+      "mu": 0.3,
+      "worldDelta": 13.626142138461432,
+      "localDelta": 1.20639164424405,
+      "within5mm": false,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true
+    },
+    {
+      "motionId": "f3dc77810c11224a",
+      "mu": 0.3,
+      "worldDelta": 49.18537954712883,
+      "localDelta": -0.22840625150676885,
+      "within5mm": false,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true
+    },
+    {
+      "motionId": "714dc504091e6cf8",
+      "mu": 0.3,
+      "worldDelta": 37.987378216791626,
+      "localDelta": -1.348727672006227,
+      "within5mm": false,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true
+    },
+    {
+      "motionId": "1b3334f31aaf0574",
+      "mu": 0.3,
+      "worldDelta": 5.847023037463828,
+      "localDelta": -0.27757216211742275,
+      "within5mm": false,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true
+    },
+    {
+      "motionId": "43104cc452b6bed2",
+      "mu": 0.3,
+      "worldDelta": 0.02302581373180601,
+      "localDelta": 0.05329633898315933,
+      "within5mm": true,
+      "outcomeMatches": true,
+      "strictOutcomeMatches": true
+    }
+  ],
+  "addedPreSummariesIndependentOfContext": true
+}

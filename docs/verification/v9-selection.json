@@ -1,0 +1,84 @@
+{
+  "selectionChecksPassed": true,
+  "motions": 17,
+  "streams": 34,
+  "excluded": [
+    "43104cc452b6bed2"
+  ],
+  "reason": "User rejected A307 on 2026-11-11",
+  "retainedMotionAndContextDataUnchanged": true,
+  "levels": [
+    0.3,
+    2
+  ],
+  "historicalValidation": {
+    "source": "v8-browser.json",
+    "freshRollouts": false,
+    "retainedTrials": 28,
+    "numericalOrOutcomeDifferences": 6,
+    "trackingOutcomeDifferences": 1,
+    "differences": [
+      {
+        "motion": "d122e57e95e31280",
+        "mu": 0.3,
+        "context": 0.3,
+        "world": 11.21548585272518,
+        "local": -3.628437911441658,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      {
+        "motion": "c0dae170256e84dd",
+        "mu": 0.3,
+        "context": 0.3,
+        "world": 186.30389299676278,
+        "local": 33.65292020811415,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      {
+        "motion": "0b47232dae99f1c5",
+        "mu": 0.3,
+        "context": 0.3,
+        "world": -114.8889848271611,
+        "local": 0.5564780003655301,
+        "outcomeMatches": false,
+        "strictOutcomeMatches": false,
+        "within5mm": false
+      },
+      {
+        "motion": "f3dc77810c11224a",
+        "mu": 0.3,
+        "context": 0.3,
+        "world": -16.328178428631873,
+        "local": 0.6040301671934074,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      {
+        "motion": "f3dc77810c11224a",
+        "mu": 0.3,
+        "context": 2,
+        "world": 28.888694884162987,
+        "local": 0.8089079113981157,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      },
+      {
+        "motion": "714dc504091e6cf8",
+        "mu": 0.3,
+        "context": 0.3,
+        "world": 37.359571854578036,
+        "local": 1.6821098454718957,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": false
+      }
+    ]
+  },
+  "contextBankSha256": "07fc49c631a30aecebb7126e89e089003f905985ea58005f5f225ad95905aa64"
+}

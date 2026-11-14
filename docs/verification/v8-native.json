@@ -1,0 +1,925 @@
+{
+  "passed": true,
+  "protocol": "same-motion-full-context-stream-350-step-held-warmup",
+  "trials": [
+    {
+      "mu": 0.3,
+      "context": 0.3,
+      "world": 252.9940019955162,
+      "local": 56.183820468778826,
+      "success": true,
+      "strict": true,
+      "source": "result.json",
+      "sourceSha256": "70ea0abab225621618cf8c815b6714967a9bad3fb0924b1455561c10b06a2eb8"
+    },
+    {
+      "mu": 0.3,
+      "context": 2.0,
+      "world": 407.23011329155844,
+      "local": 69.7121035524907,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "d0c5344415f80eda8615149e425e3e6bd57cab4c76539960e01e670af149e1a9"
+    },
+    {
+      "mu": 2.0,
+      "context": 0.3,
+      "world": 167.93260308804403,
+      "local": 40.33215449056553,
+      "success": true,
+      "strict": true,
+      "source": "result.json",
+      "sourceSha256": "97c3bb79279b87f9cb6ab6575b5903441c6f43a375dd8cf7806e2005dac91ae3"
+    },
+    {
+      "mu": 2.0,
+      "context": 2.0,
+      "world": 126.2024918949331,
+      "local": 29.19298060613734,
+      "success": true,
+      "strict": true,
+      "source": "result.json",
+      "sourceSha256": "62b5eb9988c4ccdaccfabd57f55f25fefa679cf3c278e28c08cd65afcf9e27a4"
+    }
+  ],
+  "donors": [
+    {
+      "motionId": "09dba44c081237f5",
+      "motionSha256": "09dba44c081237f504d5cdf5b465b32c008d53f30c513d23b3d35a1578b57aea",
+      "mu": 0.3,
+      "frames": 263,
+      "assetPrefix": "v6-context-09dba44c081237f5-0.3",
+      "poolRows": 563,
+      "warmupSteps": 350,
+      "initialLongSha256": "2fb161b68d5a52221966269b60868eddd4f9d8a9fc2b93c142dec20eb7155e56",
+      "warmupSha256": "f61ba689c7464424eaeb81900c891d5f2267ce2f2bd8a85d43cd01bddfc32fca",
+      "originalSharpShooterStreamBitExact": true,
+      "streamSha256": "e7f6c791e445a45e9c9c1fd93b3d526b899d246862291a42bb968ce8449f4149",
+      "native": {
+        "world": 252.9940019955162,
+        "local": 56.183820468778826,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "09dba44c081237f5",
+      "motionSha256": "09dba44c081237f504d5cdf5b465b32c008d53f30c513d23b3d35a1578b57aea",
+      "mu": 2.0,
+      "frames": 263,
+      "assetPrefix": "v6-context-09dba44c081237f5-2",
+      "poolRows": 563,
+      "warmupSteps": 350,
+      "initialLongSha256": "154f56dd5d4bf65f96e4d22c94f2162a9b9a5ea89c17cb17aa761c460cbd7d2f",
+      "warmupSha256": "224a3c8b882fa555caa7d2489a780208de698f8ba1b8ed060f48721ca67c5846",
+      "originalSharpShooterStreamBitExact": true,
+      "streamSha256": "5afa71d7ec437182f73c252f553fa9fc400b40ad3ca3b516a38bd42dadd31389",
+      "native": {
+        "world": 126.2024918949331,
+        "local": 29.19298060613734,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "721a4229db522ea9",
+      "motionSha256": "721a4229db522ea9f46519920ac107275f4d6ccfd63fb2af36f6f8ead1f91151",
+      "mu": 0.3,
+      "frames": 321,
+      "assetPrefix": "v6-context-721a4229db522ea9-0.3",
+      "poolRows": 621,
+      "warmupSteps": 350,
+      "initialLongSha256": "2d3d733ffaae3c77ab9cf3af6ff180f6c99182a0389ef83b4d7f64c0cbaea343",
+      "warmupSha256": "c20b7ce550498d8534533641677599cd2a086333bd6246bcb580b9e6c4d44cb5",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "e468d8f855bd1b52b88d30f5b680dae16b0cfd3328b957bb81bc0da7d74bba14",
+      "native": {
+        "world": 662.8842598065734,
+        "local": 81.40394271239639,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "721a4229db522ea9",
+      "motionSha256": "721a4229db522ea9f46519920ac107275f4d6ccfd63fb2af36f6f8ead1f91151",
+      "mu": 2.0,
+      "frames": 321,
+      "assetPrefix": "v6-context-721a4229db522ea9-2",
+      "poolRows": 621,
+      "warmupSteps": 350,
+      "initialLongSha256": "fdc50f47fae720cb4ec9b9e64ec4daee388f280233f8f20428e977a64aef7525",
+      "warmupSha256": "394c629b23a71df993c61e5917d9adf9c1b00aed8fba67f14fb52d85e1b04fa0",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "ce996ea802bb3ccb7cec70a2935e0f441e10afecaba0178e9e62b0c2f5580e38",
+      "native": {
+        "world": 263.30526686385275,
+        "local": 40.21263066008687,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "455c419f813b081b",
+      "motionSha256": "455c419f813b081b378df442b4b8c74e4e1681eccd121299ea242820b734e115",
+      "mu": 0.3,
+      "frames": 343,
+      "assetPrefix": "v6-context-455c419f813b081b-0.3",
+      "poolRows": 643,
+      "warmupSteps": 350,
+      "initialLongSha256": "2fc37cac2ca73917ecdb6453559da058ac6e2c7c264b03372c298f287ef39320",
+      "warmupSha256": "fd71081a6317239f017cedf0ba6cd7eda4a8211a5e54eb51c621eb09254d3b83",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "2c5fe8bf8c5f2bbbfd6a8fa5bfb0af9a28128e9f07e5117948374d1428c67496",
+      "native": {
+        "world": 323.0272094185589,
+        "local": 60.690238585946155,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "455c419f813b081b",
+      "motionSha256": "455c419f813b081b378df442b4b8c74e4e1681eccd121299ea242820b734e115",
+      "mu": 2.0,
+      "frames": 343,
+      "assetPrefix": "v6-context-455c419f813b081b-2",
+      "poolRows": 643,
+      "warmupSteps": 350,
+      "initialLongSha256": "667b035a1dbc8662dd12f0217e453f90216c2293f2779e56402a5366f788a8bb",
+      "warmupSha256": "1e282edd8befc7a1f08400fffaf30c4f307d40303cff68ba209be5e90634fc2a",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "04121d15b3bd0b46d90057121d92eb4d713afa069a7141ee1ba736b520d6431a",
+      "native": {
+        "world": 129.04044602000923,
+        "local": 40.38289731706095,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "a9ba731ed0ef9059",
+      "motionSha256": "a9ba731ed0ef90591ee0f2fc47493a967a7154adb21b4d23af3986af6a97241a",
+      "mu": 0.3,
+      "frames": 463,
+      "assetPrefix": "v6-context-a9ba731ed0ef9059-0.3",
+      "poolRows": 763,
+      "warmupSteps": 350,
+      "initialLongSha256": "0ef7bb706193bd6ef442148b807cfe02751f04f4167623a387550c4b9d7495f1",
+      "warmupSha256": "1240b02b1831e3f96215248b3cf80763700f0fc68aaa0f8c9e89c1faef4cf483",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "832e722623231043b65873c838059c296fd2b17d9e224921f84ca0db7f1bb3ab",
+      "native": {
+        "world": 345.37863352649657,
+        "local": 37.6898274700363,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "a9ba731ed0ef9059",
+      "motionSha256": "a9ba731ed0ef90591ee0f2fc47493a967a7154adb21b4d23af3986af6a97241a",
+      "mu": 2.0,
+      "frames": 463,
+      "assetPrefix": "v6-context-a9ba731ed0ef9059-2",
+      "poolRows": 763,
+      "warmupSteps": 350,
+      "initialLongSha256": "49f0f2cbe5622631031ffd52950ac3ca54c7778787452d1986d0a4896730cf37",
+      "warmupSha256": "65a223e5b0bcba94162881ea70bd127dae757fbe76cf2ed362bcb9f5929f8b3c",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "10504cb0e3cecf03dc8c3fceaf9cc71dc7d1a2acefdfb5b70de74615d4671876",
+      "native": {
+        "world": 244.16222627286788,
+        "local": 26.30556700704418,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "e9b28ea972e841d7",
+      "motionSha256": "e9b28ea972e841d7c279c0c937d5347fea3ab441e57955fe9a77676b39bc7c13",
+      "mu": 0.3,
+      "frames": 466,
+      "assetPrefix": "v6-context-e9b28ea972e841d7-0.3",
+      "poolRows": 766,
+      "warmupSteps": 350,
+      "initialLongSha256": "409adea9b1092b7787b827725df72da423d17a119cbe3d92fd3805199292ed34",
+      "warmupSha256": "be5d974ec6e8e39c514b0c3d9b46db67efa4ed44fc2f2b267fc11db47c7b2f7b",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "c37b54ae9ffec0722b6bfdacaf600714c60e2f4a11266510eb05a9d7dc8a5d3e",
+      "native": {
+        "world": 687.7769550133777,
+        "local": 46.3000566246689,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "e9b28ea972e841d7",
+      "motionSha256": "e9b28ea972e841d7c279c0c937d5347fea3ab441e57955fe9a77676b39bc7c13",
+      "mu": 2.0,
+      "frames": 466,
+      "assetPrefix": "v6-context-e9b28ea972e841d7-2",
+      "poolRows": 766,
+      "warmupSteps": 350,
+      "initialLongSha256": "cfadd3ccc8c35340e57041061fec820567b0a9c709c0c4ce82124c260679546d",
+      "warmupSha256": "923b2a56b6b945211d8c8846be12b532330842efba792e8c7f8260f1a17e52e9",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "67638fe9198a2c562686fdc52b1618d22a90a2f5f1d15e37c8789583f8f351ee",
+      "native": {
+        "world": 112.9412764851765,
+        "local": 31.251792915918493,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "06b91214dee040e8",
+      "motionSha256": "06b91214dee040e8450eaf96067699cc8fee14c2136ab3135fff6afdee775402",
+      "mu": 0.3,
+      "frames": 900,
+      "assetPrefix": "v6-context-06b91214dee040e8-0.3",
+      "poolRows": 1200,
+      "warmupSteps": 350,
+      "initialLongSha256": "ab8cf48f833e09869e6f7629e638578235c9d821eacd103129f86fee6bf0685a",
+      "warmupSha256": "7e7dfb40f147a314163b6b030777386418be9fe18c3ddb844b81734ce853a9b5",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "0c4eac51610eebf05bfab54ab80c77592a05a37e6c44f260c64200b498ef6de5",
+      "native": {
+        "world": 479.30933986489845,
+        "local": 56.89917839647533,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "06b91214dee040e8",
+      "motionSha256": "06b91214dee040e8450eaf96067699cc8fee14c2136ab3135fff6afdee775402",
+      "mu": 2.0,
+      "frames": 900,
+      "assetPrefix": "v6-context-06b91214dee040e8-2",
+      "poolRows": 1200,
+      "warmupSteps": 350,
+      "initialLongSha256": "cb0eae6d7e22767e29a3e7bb98d66c9d0554359a9c53314f2363eb9c6c98b93a",
+      "warmupSha256": "f8133d8889385fe7c7f7dd850137362146d784da763a47c479a334fe130e64d6",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "77ec8e8fe2a12af27e340ba64a18ee44b0ec8c1d9214a051bd9607051bde1e94",
+      "native": {
+        "world": 310.25537339519207,
+        "local": 52.05418940752048,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "dfd2eb7973805975",
+      "motionSha256": "dfd2eb79738059754b02190ea9d0ab0cd1b1100115dad85ecdc5dad24af97bf4",
+      "mu": 0.3,
+      "frames": 899,
+      "assetPrefix": "v6-context-dfd2eb7973805975-0.3",
+      "poolRows": 1199,
+      "warmupSteps": 350,
+      "initialLongSha256": "14eab0a5e8d8ba691b368a51690a262a25c49087168218b912b560b458491ef4",
+      "warmupSha256": "e306366b115b5eba8a187da060750a91972268a0fcd7545a46ed6a61999eb57f",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "d7bb158943894e915733a0a7be23eda04e5d97f687ab677b31621a44e91333b1",
+      "native": {
+        "world": 298.5117444195567,
+        "local": 60.30838588935495,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "dfd2eb7973805975",
+      "motionSha256": "dfd2eb79738059754b02190ea9d0ab0cd1b1100115dad85ecdc5dad24af97bf4",
+      "mu": 2.0,
+      "frames": 899,
+      "assetPrefix": "v6-context-dfd2eb7973805975-2",
+      "poolRows": 1199,
+      "warmupSteps": 350,
+      "initialLongSha256": "e959ce9ec85238eaeea30f97ca6b52a7e0cdaa812c9a81890796aff193a8a741",
+      "warmupSha256": "fd145f808d8c56bbf4dc9ff40dd87df82857a8605ef8d0eb239e6d119c2fe325",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "412e633bf50734788ddebf35ddef366d9e04cf2e6783304a17a86014b6fb9e08",
+      "native": {
+        "world": 351.4805541065063,
+        "local": 52.942348297826435,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "0acaa4a6bd6877de",
+      "motionSha256": "0acaa4a6bd6877defc5988b1dd90570865402347cdd5a37e492db3fb78fc44ea",
+      "mu": 0.3,
+      "frames": 432,
+      "assetPrefix": "v6-context-0acaa4a6bd6877de-0.3",
+      "poolRows": 732,
+      "warmupSteps": 350,
+      "initialLongSha256": "274cc4c290e55bbf7e26ebd78cd42026964f87252ec28f6f0ab44e8a7a246e3b",
+      "warmupSha256": "ce5d5d39f8d7ea8669c31ef537fad38d425c04caed383c41d80246692a6323fd",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "f21d0a908dd7d9777b8c98288a77b9e939877f479b092f4c49810db32309c109",
+      "native": {
+        "world": 219.4776117630182,
+        "local": 40.62516379356384,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "0acaa4a6bd6877de",
+      "motionSha256": "0acaa4a6bd6877defc5988b1dd90570865402347cdd5a37e492db3fb78fc44ea",
+      "mu": 2.0,
+      "frames": 432,
+      "assetPrefix": "v6-context-0acaa4a6bd6877de-2",
+      "poolRows": 732,
+      "warmupSteps": 350,
+      "initialLongSha256": "80ac8a830a3c84524e4ca6703c9cd1dab84c85b45a692b5007a3c2580905aa8b",
+      "warmupSha256": "e8083cd1177dc8e011bea70fdaf8311ea7a3dba063531ab3d8e421fa28e69345",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "6b24e62730c33f3c926e92acbc8a5a2cfc531869861907369a12321dad3b33fa",
+      "native": {
+        "world": 178.95277418559223,
+        "local": 30.68621343360423,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "c07d348a912867a7",
+      "motionSha256": "c07d348a912867a771826aea20e3ac2cc4f1a017cb7944b20363f93a7e3c5d8b",
+      "mu": 0.3,
+      "frames": 326,
+      "assetPrefix": "v6-context-c07d348a912867a7-0.3",
+      "poolRows": 626,
+      "warmupSteps": 350,
+      "initialLongSha256": "2d970a82007a772b120f9873c03f5f4dfc9aa656fa99bfdd34d17fabc4ef5146",
+      "warmupSha256": "90c0cab750c0d08457b40e615a76bac4b2f5233ddf396ef8866b2dd3c26aeee6",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "24142783218961c0cdee955415acf62ab8225d5bfaf9f38bea6640464bc097fc",
+      "native": {
+        "world": 541.1555790857168,
+        "local": 49.773071713080775,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "c07d348a912867a7",
+      "motionSha256": "c07d348a912867a771826aea20e3ac2cc4f1a017cb7944b20363f93a7e3c5d8b",
+      "mu": 2.0,
+      "frames": 326,
+      "assetPrefix": "v6-context-c07d348a912867a7-2",
+      "poolRows": 626,
+      "warmupSteps": 350,
+      "initialLongSha256": "250dbcf31c9641f391fb91bf8bdc515fd9c40efc41a055392e5eaab0f0dc81a1",
+      "warmupSha256": "6871a6a03ab76852d90c91eb632ac8c400e9b8a343e3dbfbbe2bcda4de6da7ae",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "5f2af7ac4afd531da99649ea7357f16c02aa30e57eccbf205f4588eb7ecf5d78",
+      "native": {
+        "world": 130.25689499708324,
+        "local": 26.811998010048498,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "0cc0278eb2d3d61f",
+      "motionSha256": "0cc0278eb2d3d61f62a2730bd23804468ad7de84e73e1160092d07a20613b365",
+      "mu": 0.3,
+      "frames": 151,
+      "assetPrefix": "v6-context-0cc0278eb2d3d61f-0.3",
+      "poolRows": 451,
+      "warmupSteps": 350,
+      "initialLongSha256": "1f0f539af90265c4364b254fbc7e69d0b056e46870471680ea27731e765d4a19",
+      "warmupSha256": "fa38791a36d8fd1051937dd8b90b4b79de480c8baf58eb7727e2212f7f7debc7",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "c89ea7841f0da68ea8821ea1c782eeb7629370c17f37e1d31fe2b70f6f9df07f",
+      "native": {
+        "world": 183.02937760194143,
+        "local": 54.48158177693685,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "0cc0278eb2d3d61f",
+      "motionSha256": "0cc0278eb2d3d61f62a2730bd23804468ad7de84e73e1160092d07a20613b365",
+      "mu": 2.0,
+      "frames": 151,
+      "assetPrefix": "v6-context-0cc0278eb2d3d61f-2",
+      "poolRows": 451,
+      "warmupSteps": 350,
+      "initialLongSha256": "577cc5a7b89067fa526a6909ad059956fe2bced2f70b8fac2f3aa361ad7d7ec9",
+      "warmupSha256": "611430d5b5bc05497f3672c3c2be73a3bbe687da987d08c1c2abc95762d9eccf",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "45f9f308e4b0687bfec1ee2be7fad828723b9022b3771e7ec361fbc558a74863",
+      "native": {
+        "world": 132.59577836672466,
+        "local": 32.2833707523346,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "d122e57e95e31280",
+      "motionSha256": "d122e57e95e3128002dd55dfbfe2fd5ab1e19e010a1185ef56c60e6883134bd9",
+      "mu": 0.3,
+      "frames": 453,
+      "assetPrefix": "v6-context-d122e57e95e31280-0.3",
+      "poolRows": 753,
+      "warmupSteps": 350,
+      "initialLongSha256": "c6f2283c01afddb52d8ec721b6aab440d1391d7230375aaff819ddfadff1deca",
+      "warmupSha256": "633b5e1e3c6b99b9830dcc47dab348d519718397732e99f9bbcec242d7abe356",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "165613e85febad0f05cfe2d3d6b8121d5a32b2a6769c01c00b93669710677dd7",
+      "native": {
+        "world": 301.6496129479028,
+        "local": 65.3615885777811,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "d122e57e95e31280",
+      "motionSha256": "d122e57e95e3128002dd55dfbfe2fd5ab1e19e010a1185ef56c60e6883134bd9",
+      "mu": 2.0,
+      "frames": 453,
+      "assetPrefix": "v6-context-d122e57e95e31280-2",
+      "poolRows": 753,
+      "warmupSteps": 350,
+      "initialLongSha256": "eef3022ac933e7a09c998cbc15b1dc7bc37ed6eb352e0e1584bb3004e0e48d81",
+      "warmupSha256": "687c38af2385c14687c30b4a88cb956d88ddf98d9c54ecf171d4ae1c5b3263b3",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "8ed88233df8be289bce378b86196283ad6ec87db1b59c6d06da62a2f7d82b4db",
+      "native": {
+        "world": 76.46522321532258,
+        "local": 35.424408970153436,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "c0dae170256e84dd",
+      "motionSha256": "c0dae170256e84dd0f067fb216d134aa65a8ecbccda7ccb5475efb3024b1a138",
+      "mu": 0.3,
+      "frames": 467,
+      "assetPrefix": "v6-context-c0dae170256e84dd-0.3",
+      "poolRows": 767,
+      "warmupSteps": 350,
+      "initialLongSha256": "9ebf2b8ba8caebdd801a6350099b66e7c7b147cc821056df864265e2553f45a0",
+      "warmupSha256": "882b817a871ec5ab954a898e9b4f200c27c2165c3ecfb87effe8a9fd358ffc05",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "4a054b09993dafb51e56142a835c2c2e7b7abe9e6ae83395fe530f05301ea663",
+      "native": {
+        "world": 602.0928510468406,
+        "local": 70.68658450540043,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "c0dae170256e84dd",
+      "motionSha256": "c0dae170256e84dd0f067fb216d134aa65a8ecbccda7ccb5475efb3024b1a138",
+      "mu": 2.0,
+      "frames": 467,
+      "assetPrefix": "v6-context-c0dae170256e84dd-2",
+      "poolRows": 767,
+      "warmupSteps": 350,
+      "initialLongSha256": "15b17a170105c6d1db98f043e0df3829957adc07ffd0e945b72378ce146f7b54",
+      "warmupSha256": "4e72a79cac59cf46752fd95c90d46f6d8c903dcfb6bb4263737a5501017b0034",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "e9f3e9b0891586ca6d03993c665da26246ab8ead3e361a79eb2a76979d6656e2",
+      "native": {
+        "world": 192.8108732741278,
+        "local": 37.96528423497605,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "0b47232dae99f1c5",
+      "motionSha256": "0b47232dae99f1c569f22bfc060a0a9ec04e4261b55925b5a2330102d995d850",
+      "mu": 0.3,
+      "frames": 749,
+      "assetPrefix": "v6-context-0b47232dae99f1c5-0.3",
+      "poolRows": 1049,
+      "warmupSteps": 350,
+      "initialLongSha256": "347c82bca6b306e375766efb5b2d5f459bae5bd909dff510b47653de76eba14b",
+      "warmupSha256": "1e223426beeae44ce9abd42475afb6728d1bc9a539593fb580c5fc337d7af098",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "bf21d11e415d178a3273875373544733baee667868d51d858ea5414fd6cd332b",
+      "native": {
+        "world": 448.104832443324,
+        "local": 47.909041393568174,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "0b47232dae99f1c5",
+      "motionSha256": "0b47232dae99f1c569f22bfc060a0a9ec04e4261b55925b5a2330102d995d850",
+      "mu": 2.0,
+      "frames": 749,
+      "assetPrefix": "v6-context-0b47232dae99f1c5-2",
+      "poolRows": 1049,
+      "warmupSteps": 350,
+      "initialLongSha256": "0da97883ff0cf99c25492245e3594bb6dea18149ab1d4728f2328f0463a15107",
+      "warmupSha256": "fd980fb01bf24c1e7d43c7c2c83b89b1999b2475289ae54ade0e68ef617cb23a",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "46360d7effc742172f4b9163d86ae21141628656814281f83a72c2759ee8505d",
+      "native": {
+        "world": 225.3306406828809,
+        "local": 26.89509232477708,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "6f13249b3741a936",
+      "motionSha256": "6f13249b3741a936bc2bf677399391b9cad14a5532717ac279a7def514306f8b",
+      "mu": 0.3,
+      "frames": 358,
+      "assetPrefix": "v6-context-6f13249b3741a936-0.3",
+      "poolRows": 658,
+      "warmupSteps": 350,
+      "initialLongSha256": "b802fc540fcbbfa32102e0d2d24a3fbeb667912c521db2b9857afdb68a3cb53e",
+      "warmupSha256": "934b95769df413b963809801f6c82b5fc152eadebc74320088d18b652d297271",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "f454478e142332988f458627571c6ea41303e9d06643f403637038b3d0ba7f59",
+      "native": {
+        "world": 273.0579880138739,
+        "local": 42.62768485432579,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "6f13249b3741a936",
+      "motionSha256": "6f13249b3741a936bc2bf677399391b9cad14a5532717ac279a7def514306f8b",
+      "mu": 2.0,
+      "frames": 358,
+      "assetPrefix": "v6-context-6f13249b3741a936-2",
+      "poolRows": 658,
+      "warmupSteps": 350,
+      "initialLongSha256": "c2f3feedb578e3a741d7a44ac58fb070209e13513eafe71a7358504de1b722af",
+      "warmupSha256": "e88ff5ea05864d70ea206431b7370bd32f766b63abe5c627a913d1c37cacc824",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "751f527cd079ca5f557a78e7fab0018aa55876f41a944ea92f7367c5f2b8ca55",
+      "native": {
+        "world": 118.13212496025555,
+        "local": 29.007028391381272,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "f3dc77810c11224a",
+      "motionSha256": "f3dc77810c11224afbe6b0f812700beae48f88ad013a2e088acce3e5e7aa8ea7",
+      "mu": 0.3,
+      "frames": 340,
+      "assetPrefix": "v6-context-f3dc77810c11224a-0.3",
+      "poolRows": 640,
+      "warmupSteps": 350,
+      "initialLongSha256": "9485d8244e7aa49c8bb7c9d30aa425ac9971e6c9661bb3b9915cd783ceb68110",
+      "warmupSha256": "35e931d5b164c4bae9f435fb2c79b3d5140a9746235db95e1aafc1aa4706f6a1",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "43e7a4ff305c74ad7efb96ce7a31d6a6115f0d6a49793d9fa691c0e99ac2a3e1",
+      "native": {
+        "world": 503.18464871915745,
+        "local": 46.26252738986395,
+        "success": false,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "f3dc77810c11224a",
+      "motionSha256": "f3dc77810c11224afbe6b0f812700beae48f88ad013a2e088acce3e5e7aa8ea7",
+      "mu": 2.0,
+      "frames": 340,
+      "assetPrefix": "v6-context-f3dc77810c11224a-2",
+      "poolRows": 640,
+      "warmupSteps": 350,
+      "initialLongSha256": "3a491bc5b2011e80dec6477da99b78312dd6caedf2c6db4ff07eca86b52a53d2",
+      "warmupSha256": "79502ba9a34270bccc95e6193867a12d04742d55001b93add759f26f8612e932",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "fb077f06f98c38449ea95b5ceda6d96b7b89bfb7b0674f4f31bd98a62268eb4a",
+      "native": {
+        "world": 363.982947613989,
+        "local": 31.735945019398468,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "714dc504091e6cf8",
+      "motionSha256": "714dc504091e6cf8a80688a8a439f47278357e3b51036f96894afb6e47cc51c6",
+      "mu": 0.3,
+      "frames": 747,
+      "assetPrefix": "v6-context-714dc504091e6cf8-0.3",
+      "poolRows": 1047,
+      "warmupSteps": 350,
+      "initialLongSha256": "d247081ca875e25257e76ef8fa519fa1de57524bb9730c742708c0f16ab64980",
+      "warmupSha256": "8d69e83fc932c3d209250c51dccbc230e94d9ef5be5f2e8bf93d46a8140baf1d",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "61b2057c6e70079b0b343e063dab115dbd765702419643610949663e16aedf6b",
+      "native": {
+        "world": 227.93590677136072,
+        "local": 29.309149954338174,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "714dc504091e6cf8",
+      "motionSha256": "714dc504091e6cf8a80688a8a439f47278357e3b51036f96894afb6e47cc51c6",
+      "mu": 2.0,
+      "frames": 747,
+      "assetPrefix": "v6-context-714dc504091e6cf8-2",
+      "poolRows": 1047,
+      "warmupSteps": 350,
+      "initialLongSha256": "7a4adcec1682f003c66b55a4aef714f390de58f55e3244dd6560de7226ffeac5",
+      "warmupSha256": "647759c1902c5284542994bddf9043b6f8082a17884c7d40e28ad3622b8e202a",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "be74dbe3e7f90fcbef6a8ace0afdf651fbc3f77f64add902b30ac17bd69f40df",
+      "native": {
+        "world": 415.71054149249284,
+        "local": 22.7315123419979,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "1b3334f31aaf0574",
+      "motionSha256": "1b3334f31aaf0574f39fdabe710aa3d44cd9f6125db8cacc7d79412c54c5acf1",
+      "mu": 0.3,
+      "frames": 405,
+      "assetPrefix": "v6-context-1b3334f31aaf0574-0.3",
+      "poolRows": 705,
+      "warmupSteps": 350,
+      "initialLongSha256": "334c89138380b852b169d5196d928ddc70b0105b4df6392e02a09866e3c7489d",
+      "warmupSha256": "2b6c6dd436940be644179f079ea94f2d4ea253270fb12c4b8bdff858625e9534",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "1aeb257c6b34892a34bc49d001e09bdedef0e99ebca53ee9e09e19692f49376a",
+      "native": {
+        "world": 210.72679112394258,
+        "local": 34.78194976679169,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "1b3334f31aaf0574",
+      "motionSha256": "1b3334f31aaf0574f39fdabe710aa3d44cd9f6125db8cacc7d79412c54c5acf1",
+      "mu": 2.0,
+      "frames": 405,
+      "assetPrefix": "v6-context-1b3334f31aaf0574-2",
+      "poolRows": 705,
+      "warmupSteps": 350,
+      "initialLongSha256": "5fdbfe4394ccfdd63dc95442f426315ad8e31b59f82242e832d202db875ed7d0",
+      "warmupSha256": "f79e2ae0f82027eb8f5cf179e1bd65140331d710cc41915a88d88b469a00146d",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "b1a8c4079166b62d4c47e547c740192766500c8788198abac0ef355254c1cbe6",
+      "native": {
+        "world": 178.70907625172399,
+        "local": 27.371838766159396,
+        "success": true,
+        "strict": true
+      }
+    },
+    {
+      "motionId": "43104cc452b6bed2",
+      "motionSha256": "43104cc452b6bed28322298192d1ea45600026e9b29a209103d170d4b499e0d8",
+      "mu": 0.3,
+      "frames": 1086,
+      "assetPrefix": "v6-context-43104cc452b6bed2-0.3",
+      "poolRows": 1386,
+      "warmupSteps": 350,
+      "initialLongSha256": "9ffcef51a12da497866e39ccb4ceb924fe0818f2828b5a074e852af32908e22e",
+      "warmupSha256": "35fc17c0aa2483ac0e11470252ade0bb028357c49720d21bf200141fa69f907c",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "57ed4117b353202c99569528dd0ec07afcd05d848d0a0c280ba5f56eeb16a84a",
+      "native": {
+        "world": 384.6350725325571,
+        "local": 54.41078219325861,
+        "success": true,
+        "strict": false
+      }
+    },
+    {
+      "motionId": "43104cc452b6bed2",
+      "motionSha256": "43104cc452b6bed28322298192d1ea45600026e9b29a209103d170d4b499e0d8",
+      "mu": 2.0,
+      "frames": 1086,
+      "assetPrefix": "v6-context-43104cc452b6bed2-2",
+      "poolRows": 1386,
+      "warmupSteps": 350,
+      "initialLongSha256": "877658a5b02b6175d93ccd3cd2b19416edd870cd174cdc26fcaada90508372b4",
+      "warmupSha256": "8871c66fd9cf739f7379f7d746c0dd5b9e8103213ba8aaefd579e95a742a9e4f",
+      "originalSharpShooterStreamBitExact": null,
+      "streamSha256": "4c5ce9dc31a97056dc9f0c3b9fe66853fce5253f5ae715b6b5991b22988e2490",
+      "native": {
+        "world": 332.1682951127329,
+        "local": 42.65302060804059,
+        "success": true,
+        "strict": true
+      }
+    }
+  ],
+  "addedCrossTrials": [
+    {
+      "motionId": "0cc0278eb2d3d61f",
+      "mu": 0.3,
+      "context": 2,
+      "world": 267.9525535329183,
+      "local": 73.6078535715739,
+      "success": true,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "f3bf35cd5b2483dd64abf79b187fcd17e97daa67a31286e177512fd0469f6f67"
+    },
+    {
+      "motionId": "d122e57e95e31280",
+      "mu": 0.3,
+      "context": 2,
+      "world": 554.1786034703255,
+      "local": 199.64464497091495,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "62f45f1a03bc3ab2359c66efa0ed3ddac1f32c151d8d09f4135c0e324817084b"
+    },
+    {
+      "motionId": "c0dae170256e84dd",
+      "mu": 0.3,
+      "context": 2,
+      "world": 521.3986386388157,
+      "local": 200.39554529486807,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "45db759440a08ff13fe69a32473825b92e15bb208fb16088597fc3633599ebb6"
+    },
+    {
+      "motionId": "0b47232dae99f1c5",
+      "mu": 0.3,
+      "context": 2,
+      "world": 711.8663641663796,
+      "local": 201.96282897467282,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "2426abec398d5b36edd15390a531a8785f5e7a7a43b5ce67969b6438b72b1c30"
+    },
+    {
+      "motionId": "6f13249b3741a936",
+      "mu": 0.3,
+      "context": 2,
+      "world": 667.0295093299962,
+      "local": 220.70180718237611,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "3178312d8092f774ce503e052c8bb0578dce4eed871212fa2e7880abef8f6dd5"
+    },
+    {
+      "motionId": "f3dc77810c11224a",
+      "mu": 0.3,
+      "context": 2,
+      "world": 1111.350841977955,
+      "local": 62.50298181114647,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "bd1a9a60f10d18547a2157820ae791b30e8d56852aeceb6370b6c6b19fb13c45"
+    },
+    {
+      "motionId": "714dc504091e6cf8",
+      "mu": 0.3,
+      "context": 2,
+      "world": 324.4003608619879,
+      "local": 29.62032985527458,
+      "success": true,
+      "strict": true,
+      "source": "result.json",
+      "sourceSha256": "2a334df29d7d03ddd1c00445863b0da310ddf0df47944445a261765e9df57053"
+    },
+    {
+      "motionId": "1b3334f31aaf0574",
+      "mu": 0.3,
+      "context": 2,
+      "world": 382.12724123083717,
+      "local": 33.84375208557242,
+      "success": true,
+      "strict": true,
+      "source": "result.json",
+      "sourceSha256": "b738adc6118e83f50ccfa2a0e1ec247f5c7f997cefabedf1842a0618a0d3d435"
+    },
+    {
+      "motionId": "43104cc452b6bed2",
+      "mu": 0.3,
+      "context": 2,
+      "world": 484.3229322114848,
+      "local": 50.62191682015696,
+      "success": true,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "22d30a4e077f553db91abc1aaf31e07cdba4427cfedb6c4637ddf87d60b8dc8a"
+    }
+  ],
+  "addedPreTrials": [
+    {
+      "motionId": "0cc0278eb2d3d61f",
+      "mu": 0.3,
+      "world": 445.9972028207779,
+      "local": 243.28395064989726,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "b9712a9c7e07ad1481ba207b36c374fc334eeb420146903c4298336b29f4c40b"
+    },
+    {
+      "motionId": "d122e57e95e31280",
+      "mu": 0.3,
+      "world": 672.1498075844967,
+      "local": 142.62697439541859,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "ddb79577c9a91bd99094eb3e30a0687364c832f43daaa55defd129ca8baeed6a"
+    },
+    {
+      "motionId": "c0dae170256e84dd",
+      "mu": 0.3,
+      "world": 413.81350258542744,
+      "local": 192.0567273914558,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "dfefcfd36ba60a5e8d6f7c3b6ef0a27fd9f9e7f78f987c893b354a402a5bc351"
+    },
+    {
+      "motionId": "0b47232dae99f1c5",
+      "mu": 0.3,
+      "world": 777.1144888190662,
+      "local": 55.09376627015558,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "0119e4561f2ec44ea8b32cd11a13c2591e6b70a3f159d0054802180be66e2170"
+    },
+    {
+      "motionId": "6f13249b3741a936",
+      "mu": 0.3,
+      "world": 555.0504368587034,
+      "local": 74.13019738611386,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "14375198baae507b7468ed98dc3cdbe0a6606b75a5e7a9e509dc93e466d0e5c2"
+    },
+    {
+      "motionId": "f3dc77810c11224a",
+      "mu": 0.3,
+      "world": 2070.2270346363034,
+      "local": 86.06397606419252,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "9a574e48045ae540e14e0b6386746470d0eb88109d27309610a3fd9625d433b7"
+    },
+    {
+      "motionId": "714dc504091e6cf8",
+      "mu": 0.3,
+      "world": 690.2732187925011,
+      "local": 36.878346178870416,
+      "success": true,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "8023c7ef43a658203fcfe5e07fe095df310115b960862120b8d048f1524f1246"
+    },
+    {
+      "motionId": "1b3334f31aaf0574",
+      "mu": 0.3,
+      "world": 424.153843498466,
+      "local": 34.26634064995417,
+      "success": true,
+      "strict": true,
+      "source": "result.json",
+      "sourceSha256": "15a3f5aa01be0eb02f1a147b68afb551771fac082c59606a6d1e71d0bf050fd3"
+    },
+    {
+      "motionId": "43104cc452b6bed2",
+      "mu": 0.3,
+      "world": 747.5044582274652,
+      "local": 85.73121339912238,
+      "success": false,
+      "strict": false,
+      "source": "result.json",
+      "sourceSha256": "6b904684bbc8950854ba114246b41cf3988f62c0f6ad5639ab3886449e60d04a"
+    }
+  ]
+}

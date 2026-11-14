@@ -1,0 +1,10 @@
+{
+  "errors": [],
+  "passed": true,
+  "motions": 17,
+  "streams": 34,
+  "removedDeepLinkFallsBack": true,
+  "workerRejectsRemovedMotion": true,
+  "removedAssetsExcludedFromBuild": true,
+  "runResetPassed": true
+}

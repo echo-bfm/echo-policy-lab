@@ -1,0 +1,24 @@
+Sharpshooter: three actual friction levels by three context sources
+
+All nine cells at actual/source mu=0.3,1.0,2.0 retained. Other physics nominal, no forces, complete motion. Matching context comes from the actual-friction interaction environment; foreign context continuously replays aligned same-motion donor histories while tracker inputs remain live. Not initial-only latent corruption or direct friction-number input. Each target receives 350-step actual-friction calibration and reset.
+Three self-replays and three previous actual-0.3 targets exactly reproduce trajectories; all donor/target context fingerprints and latents match exactly. Primary tracking metric is world MPJPE; local MPJPE also retained. Error increases are worse; decreases are better.
+A deterministic selected three-level demonstration does not establish continuous robustness; previous correct-context failures at actual mu=0.33 and 0.38 remain valid.
+
+actual mu | context mu | custom/strict | world mm | change % | local mm | support loss proxy
+0.3 | 0.3 | 1/1 | 252.99 | +0.00 | 56.18 | False
+0.3 | 1 | 0/0 | 627.90 | +148.19 | 428.54 | True
+0.3 | 2 | 0/0 | 407.23 | +60.96 | 69.71 | False
+1 | 0.3 | 1/1 | 74.12 | -15.29 | 25.11 | False
+1 | 1 | 1/1 | 87.50 | +0.00 | 26.74 | False
+1 | 2 | 1/1 | 119.21 | +36.25 | 24.71 | False
+2 | 0.3 | 1/1 | 167.93 | +33.07 | 40.33 | False
+2 | 1 | 1/1 | 155.68 | +23.36 | 32.84 | False
+2 | 2 | 1/1 | 126.20 | +0.00 | 29.19 | False
+
+PRE: actual mu | custom/strict | world mm
+0.3 | 0/0 | 630.48
+1 | 1/1 | 57.09
+2 | 1/1 | 73.24
+
+Confirmed: PRE falls at actual mu=0.3 and succeeds at 1.0 and 2.0; N passes custom and strict criteria with matching context at all three levels. At actual mu=0.3 both foreign sources fail: source 1.0 ends on the floor; source 2.0 finishes standing but fails tracking. At actual mu=2.0 both foreign contexts still succeed, with larger world and local errors. At actual mu=1.0, source 0.3 still succeeds and improves world error from 87.50 to 74.12 mm and local error as well: an explicit counterexample. At actual mu=1.0, source 2.0 increases world error but slightly reduces local error. Not all foreign contexts worsen all metrics.
+Verified video: visualization_mu03/comparison.mp4. Full trajectories, donor input tapes, latents, warmups and physical audits retained.

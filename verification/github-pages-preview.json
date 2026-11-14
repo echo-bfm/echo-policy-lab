@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "url": "GitHub Pages-style project subpath preview, no custom response headers",
+  "crossOriginIsolated": false,
+  "summaries": [
+    {
+      "policy": "PRE",
+      "world": 630.4833742731951,
+      "local": 359.21419830685704,
+      "success": false,
+      "strict": false,
+      "failureFrame": 68,
+      "strictFailureFrame": 68,
+      "supportLoss": true,
+      "samples": 262,
+      "complete": true
+    },
+    {
+      "policy": "N",
+      "world": 252.29084455932818,
+      "local": 56.283113903521446,
+      "success": true,
+      "strict": true,
+      "failureFrame": null,
+      "strictFailureFrame": null,
+      "supportLoss": false,
+      "samples": 262,
+      "complete": true
+    }
+  ],
+  "passed": true
+}

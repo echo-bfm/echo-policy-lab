@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "id": "09dba44c081237f5",
+      "frames": 263,
+      "originalCoordinates": true,
+      "nativeInitialQposExact": true,
+      "allScoredNativeReferenceInputsExact": true
+    },
+    {
+      "id": "721a4229db522ea9",
+      "frames": 321,
+      "originalCoordinates": true
+    },
+    {
+      "id": "603c13eed1121bd7",
+      "frames": 444,
+      "originalCoordinates": true
+    },
+    {
+      "id": "455c419f813b081b",
+      "frames": 343,
+      "originalCoordinates": true
+    },
+    {
+      "id": "7d9995c9780490d3",
+      "frames": 371,
+      "originalCoordinates": true
+    },
+    {
+      "id": "a9ba731ed0ef9059",
+      "frames": 463,
+      "originalCoordinates": true
+    },
+    {
+      "id": "c13894eca6f161e1",
+      "frames": 466,
+      "originalCoordinates": true
+    },
+    {
+      "id": "e9b28ea972e841d7",
+      "frames": 466,
+      "originalCoordinates": true
+    },
+    {
+      "id": "06b91214dee040e8",
+      "frames": 900,
+      "originalCoordinates": true
+    },
+    {
+      "id": "dfd2eb7973805975",
+      "frames": 899,
+      "originalCoordinates": true
+    },
+    {
+      "id": "0acaa4a6bd6877de",
+      "frames": 432,
+      "originalCoordinates": true
+    },
+    {
+      "id": "c07d348a912867a7",
+      "frames": 326,
+      "originalCoordinates": true
+    }
+  ]
+}

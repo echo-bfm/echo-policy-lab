@@ -1,0 +1,149 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "motionId": "0cc0278eb2d3d61f",
+      "mu": 0.3,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "0cc0278eb2d3d61f",
+      "mu": 2,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "d122e57e95e31280",
+      "mu": 0.3,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "d122e57e95e31280",
+      "mu": 2,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "c0dae170256e84dd",
+      "mu": 0.3,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "c0dae170256e84dd",
+      "mu": 2,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "0b47232dae99f1c5",
+      "mu": 0.3,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "0b47232dae99f1c5",
+      "mu": 2,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "6f13249b3741a936",
+      "mu": 0.3,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "6f13249b3741a936",
+      "mu": 2,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "f3dc77810c11224a",
+      "mu": 0.3,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "f3dc77810c11224a",
+      "mu": 2,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "714dc504091e6cf8",
+      "mu": 0.3,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "714dc504091e6cf8",
+      "mu": 2,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "1b3334f31aaf0574",
+      "mu": 0.3,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "1b3334f31aaf0574",
+      "mu": 2,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "43104cc452b6bed2",
+      "mu": 0.3,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    },
+    {
+      "motionId": "43104cc452b6bed2",
+      "mu": 2,
+      "passed": true,
+      "friction_only_verified": true,
+      "external_forces_zero": true,
+      "all_other_model_fields_and_gains_nominal": true
+    }
+  ]
+}

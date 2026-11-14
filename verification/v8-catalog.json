@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "motions": 18,
+  "streams": 36,
+  "addedOrder": [
+    "0cc0278eb2d3d61f",
+    "d122e57e95e31280",
+    "c0dae170256e84dd",
+    "0b47232dae99f1c5",
+    "6f13249b3741a936",
+    "f3dc77810c11224a",
+    "714dc504091e6cf8",
+    "1b3334f31aaf0574",
+    "43104cc452b6bed2"
+  ],
+  "originalNineUnchanged": true,
+  "originalStreamsUnchanged": true,
+  "modelsUnchanged": true,
+  "excludedMotionsAbsent": true,
+  "levels": [
+    0.3,
+    2
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "motions": 9,
+  "streams": 18,
+  "excluded": [
+    "603c13eed1121bd7",
+    "7d9995c9780490d3",
+    "c13894eca6f161e1"
+  ],
+  "removedLinksFallBack": true,
+  "workerRejectsExcluded": true,
+  "buildOmitsExcluded": true,
+  "standingReady": true
+}

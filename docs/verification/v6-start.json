@@ -1,0 +1,83 @@
+{
+  "started": "2026-11-10T03:19:34.058Z",
+  "trials": [
+    {
+      "standingSteps": 4,
+      "canonicalInitialState": true,
+      "trajectoriesBitExactAcrossStarts": true,
+      "comparisons": [
+        {
+          "policy": "PRE",
+          "world": 630.4833742731951,
+          "local": 359.21419830685704,
+          "success": false,
+          "supportLoss": true,
+          "worldDelta": -0.0011418533138112252,
+          "localDelta": 0.00018001020760038955
+        },
+        {
+          "policy": "N",
+          "world": 252.29084455932818,
+          "local": 56.283113903521446,
+          "success": true,
+          "supportLoss": false,
+          "worldDelta": -0.7031574361880075,
+          "localDelta": 0.09929343474261998
+        }
+      ]
+    },
+    {
+      "standingSteps": 101,
+      "canonicalInitialState": true,
+      "trajectoriesBitExactAcrossStarts": true,
+      "comparisons": [
+        {
+          "policy": "PRE",
+          "world": 630.4833742731951,
+          "local": 359.21419830685704,
+          "success": false,
+          "supportLoss": true,
+          "worldDelta": -0.0011418533138112252,
+          "localDelta": 0.00018001020760038955
+        },
+        {
+          "policy": "N",
+          "world": 252.29084455932818,
+          "local": 56.283113903521446,
+          "success": true,
+          "supportLoss": false,
+          "worldDelta": -0.7031574361880075,
+          "localDelta": 0.09929343474261998
+        }
+      ]
+    },
+    {
+      "standingSteps": 501,
+      "canonicalInitialState": true,
+      "trajectoriesBitExactAcrossStarts": true,
+      "comparisons": [
+        {
+          "policy": "PRE",
+          "world": 630.4833742731951,
+          "local": 359.21419830685704,
+          "success": false,
+          "supportLoss": true,
+          "worldDelta": -0.0011418533138112252,
+          "localDelta": 0.00018001020760038955
+        },
+        {
+          "policy": "N",
+          "world": 252.29084455932818,
+          "local": 56.283113903521446,
+          "success": true,
+          "supportLoss": false,
+          "worldDelta": -0.7031574361880075,
+          "localDelta": 0.09929343474261998
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "finished": "2026-11-10T03:20:45.261Z"
+}

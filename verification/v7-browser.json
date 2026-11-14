@@ -1,0 +1,252 @@
+{
+  "scope": "SharpShooter four combinations",
+  "started": "2026-11-10T07:54:54.480Z",
+  "trials": [
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 0.3,
+      "context": 0.3,
+      "startLatencyMs": 13.599999999627471,
+      "wallSeconds": 9.585,
+      "frames": 262,
+      "nativeDelta": {
+        "world": -0.7031574361880075,
+        "local": 0.09929343474261998,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 630.4833742731951,
+          "local": 359.21419830685704,
+          "success": false,
+          "strict": false,
+          "failureFrame": 68,
+          "strictFailureFrame": 68,
+          "supportLoss": true,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 252.29084455932818,
+          "local": 56.283113903521446,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 0.3,
+      "context": 2,
+      "startLatencyMs": 5.230000000447035,
+      "wallSeconds": 11.429,
+      "frames": 262,
+      "nativeDelta": {
+        "world": 1.7401308668219144,
+        "local": -1.8439664767594053,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 630.4833742731951,
+          "local": 359.21419830685704,
+          "success": false,
+          "strict": false,
+          "failureFrame": 68,
+          "strictFailureFrame": 68,
+          "supportLoss": true,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 408.97024415838035,
+          "local": 67.8681370757313,
+          "success": false,
+          "strict": false,
+          "failureFrame": 77,
+          "strictFailureFrame": 77,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 2,
+      "context": 0.3,
+      "startLatencyMs": 1.0649999994784594,
+      "wallSeconds": 12.608,
+      "frames": 262,
+      "nativeDelta": {
+        "world": 0.00007797335655368443,
+        "local": 0.00003741487387287634,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 73.2418014289671,
+          "local": 31.43002391620788,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 167.9326810614006,
+          "local": 40.3321919054394,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "motion": "09dba44c081237f5",
+      "mu": 2,
+      "context": 2,
+      "startLatencyMs": 1.1099999994039536,
+      "wallSeconds": 14.21,
+      "frames": 262,
+      "nativeDelta": {
+        "world": 0.00986368790059089,
+        "local": 0.001115589551911711,
+        "outcomeMatches": true,
+        "strictOutcomeMatches": true,
+        "within5mm": true
+      },
+      "summaries": [
+        {
+          "policy": "PRE",
+          "world": 73.2418014289671,
+          "local": 31.43002391620788,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        },
+        {
+          "policy": "N",
+          "world": 126.2123555828337,
+          "local": 29.19409619568925,
+          "success": true,
+          "strict": true,
+          "failureFrame": null,
+          "strictFailureFrame": null,
+          "supportLoss": false,
+          "samples": 262,
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "partitionParity": {
+    "passed": true,
+    "rows": [
+      {
+        "key": "fixture-N-0",
+        "latentMaxError": 0.0000030100345611572266,
+        "actionMaxError": 0.0000011920928955078125,
+        "trackerMaxError": 3.8743019104003906e-7
+      },
+      {
+        "key": "fixture-N-1",
+        "latentMaxError": 0.0000032186508178710938,
+        "actionMaxError": 7.152557373046875e-7,
+        "trackerMaxError": 7.152557373046875e-7
+      },
+      {
+        "key": "fixture-N-100",
+        "latentMaxError": 3.5762786865234375e-7,
+        "actionMaxError": 8.344650268554688e-7,
+        "trackerMaxError": 7.152557373046875e-7
+      },
+      {
+        "key": "fixture-N-349",
+        "latentMaxError": 0.0000011920928955078125,
+        "actionMaxError": 5.960464477539062e-7,
+        "trackerMaxError": 4.76837158203125e-7
+      },
+      {
+        "key": "fixture-N-350",
+        "latentMaxError": 0.0000021457672119140625,
+        "actionMaxError": 4.172325134277344e-7,
+        "trackerMaxError": 4.172325134277344e-7
+      },
+      {
+        "key": "fixture-N-351",
+        "latentMaxError": 0.0000021457672119140625,
+        "actionMaxError": 5.066394805908203e-7,
+        "trackerMaxError": 4.76837158203125e-7
+      },
+      {
+        "key": "fixture-N-400",
+        "latentMaxError": 0.0000013113021850585938,
+        "actionMaxError": 0.0000017881393432617188,
+        "trackerMaxError": 0.0000016689300537109375
+      },
+      {
+        "key": "fixture-N-500",
+        "latentMaxError": 6.556510925292969e-7,
+        "actionMaxError": 0.0000011920928955078125,
+        "trackerMaxError": 9.5367431640625e-7
+      },
+      {
+        "key": "fixture-N-611",
+        "latentMaxError": 5.960464477539062e-7,
+        "actionMaxError": 9.5367431640625e-7,
+        "trackerMaxError": 9.5367431640625e-7
+      },
+      {
+        "key": "fixture-N-612",
+        "latentMaxError": 4.76837158203125e-7,
+        "actionMaxError": 7.152557373046875e-7,
+        "trackerMaxError": 7.152557373046875e-7
+      }
+    ]
+  },
+  "discreteInputsEnforced": true,
+  "resetDuringMotion": true,
+  "preIndependentOfContext": true,
+  "allFiveDonorInputsBitExact": true,
+  "rollingLongHistory": true,
+  "fourOriginalNativeComparisons": true,
+  "all24MatchedDonorComparisons": false,
+  "motionPrefetchKeepsStanding": true,
+  "executionChecksPassed": true,
+  "numericalParity": {
+    "toleranceMm": 5,
+    "passed": true,
+    "exceeded": []
+  },
+  "passed": true,
+  "finished": "2026-11-10T07:56:11.526Z"
+}

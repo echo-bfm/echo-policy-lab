@@ -1,0 +1,172 @@
+{
+  "passed": true,
+  "streams": 18,
+  "motions": 9,
+  "contextBankSha256": "7fa3996485287062b7114f8b2f08b570d4560771a762eccd2b192cd19dda10df",
+  "sourcePolicySha256": "0719a48e5f5dff9b8b78dd13ff8e53f51745a9e91e5dfbfa7782b36d7b4391ca",
+  "checks": [
+    {
+      "motionId": "09dba44c081237f5",
+      "mu": 0.3,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": true
+    },
+    {
+      "motionId": "09dba44c081237f5",
+      "mu": 2.0,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": true
+    },
+    {
+      "motionId": "721a4229db522ea9",
+      "mu": 0.3,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "721a4229db522ea9",
+      "mu": 2.0,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "455c419f813b081b",
+      "mu": 0.3,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "455c419f813b081b",
+      "mu": 2.0,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "a9ba731ed0ef9059",
+      "mu": 0.3,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "a9ba731ed0ef9059",
+      "mu": 2.0,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "e9b28ea972e841d7",
+      "mu": 0.3,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "e9b28ea972e841d7",
+      "mu": 2.0,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "06b91214dee040e8",
+      "mu": 0.3,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "06b91214dee040e8",
+      "mu": 2.0,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "dfd2eb7973805975",
+      "mu": 0.3,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "dfd2eb7973805975",
+      "mu": 2.0,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "0acaa4a6bd6877de",
+      "mu": 0.3,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "0acaa4a6bd6877de",
+      "mu": 2.0,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "c07d348a912867a7",
+      "mu": 0.3,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    },
+    {
+      "motionId": "c07d348a912867a7",
+      "mu": 2.0,
+      "losslessAllFiveInputs": true,
+      "initialLongIsLast300WarmupInteractions": true,
+      "shortStartsEmpty": true,
+      "previousLatentsCausalAndStartZero": true,
+      "originalSharpShooterStreamBitExact": null
+    }
+  ],
+  "selection": "Unchanged verified v6 streams; only mu=0.3 and mu=2.0 retained; three user-excluded motions removed"
+}
